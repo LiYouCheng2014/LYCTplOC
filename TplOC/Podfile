@@ -26,6 +26,9 @@ target 'TplOC' do
   #pod 'CocoaLumberjack', '~> 3.4.2'
   #pod 'SocketRocket', '~> 0.5.1'
   #pod 'JazzHands', '~> 2.0.8'
+  
+  # 数据编码
+  pod 'FastCoding', '~> 3.3'
 
   target 'TplOCTests' do
     inherit! :search_paths

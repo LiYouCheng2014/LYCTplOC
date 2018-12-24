@@ -11,6 +11,8 @@
 #import "LYCMineModel.h"
 #import "LYCMineCell.h"
 
+#import "CanvasViewController.h"
+
 static NSString *kIdentifierCell = @"LYCMineCell";
 
 @interface LYCMineVC ()
@@ -126,6 +128,8 @@ UITableViewDelegate>
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    CanvasViewController *vc = [[CanvasViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
     NSLog(@"您点击了%ld个cell",(long)indexPath.row);
 }
 

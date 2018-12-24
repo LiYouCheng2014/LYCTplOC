@@ -14,21 +14,25 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - FastCoding (3.3)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - FastCoding (~> 3.3)
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - FastCoding
     - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FastCoding: 3b590f7143a229780fa744b35084d85d9461587e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: f7e549e01e3bf6b391131c24140f9ef37c1304f9
+PODFILE CHECKSUM: c4238454f7800037708fa37a033a4619d21dff13
 
 COCOAPODS: 1.5.0
