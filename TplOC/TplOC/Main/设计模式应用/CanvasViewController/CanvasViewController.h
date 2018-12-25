@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator;
 
+@property (nonatomic, strong) UIColor *strokerColor; //!< 颜色
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -8,7 +8,16 @@
 
 #import "PaletteViewController.h"
 
+#import "SetStrokeColorCommand.h"
+
+#import "CommandSlider.h"
+
 @interface PaletteViewController ()
+<SetStrokeColorCommandDelegate>
+
+@property (nonatomic, strong) UISlider *redSlider; //!<
+@property (nonatomic, strong) UISlider *greeSlider; //!<
+@property (nonatomic, strong) UISlider *blueSlider; //!<
 
 @end
 
@@ -16,7 +25,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    SetStrokeColorCommand *colorCommand = [[SetStrokeColorCommand alloc] init];
+    [colorCommand setRgbValuesProvider:^(CGFloat * _Nonnull red, CGFloat * _Nonnull green, CGFloat * _Nonnull blue) {
+        *red = (CGFloat)_redSlider.value;
+        *green = (CGFloat)_greeSlider.value;
+        *blue = (CGFloat)_blueSlider.value;
+    }];
+}
+
+- (void)onCommandSliderValueChanged:(CommandSlider *)slider {
+    
+    [[slider command] execute];
+}
+
+#pragma mark - SetStrokeColorCommandDelegate
+
+- (void)command:(SetStrokeColorCommand *)command didRequestColorComponentsForRed:(CGFloat *)red green:(CGFloat *)green blue:(CGFloat *)blue {
+    
+    *red = (CGFloat)_redSlider.value;
+    *green = (CGFloat)_greeSlider.value;
+    *blue = (CGFloat)_blueSlider.value;
+}
+
+- (void)command:(SetStrokeColorCommand *)command didFinishColorUpdateWithColor:(UIColor *)color {
+    // paletView setBackgroudColor: color]
 }
 
 /*

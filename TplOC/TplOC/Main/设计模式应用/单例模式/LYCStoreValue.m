@@ -29,8 +29,6 @@ static LYCStoreValue *center = nil;
         NSParameterAssert(nil);
     }
     
-    
-    
     return center;
 }
 

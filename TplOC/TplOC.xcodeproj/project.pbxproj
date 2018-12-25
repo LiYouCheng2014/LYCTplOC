@@ -41,6 +41,42 @@
 		04993F0F21D126BA0013AAF9 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993EFF21D126B90013AAF9 /* Door.m */; };
 		04993F1021D126BA0013AAF9 /* JZYIBuilderDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F0121D126B90013AAF9 /* JZYIBuilderDemoVC.m */; };
 		04993F1121D126BA0013AAF9 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F0221D126B90013AAF9 /* Engine.m */; };
+		04993F1621D268900013AAF9 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F1521D268900013AAF9 /* Command.m */; };
+		04993F1921D269070013AAF9 /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F1821D269070013AAF9 /* SetStrokeColorCommand.m */; };
+		04993F1C21D26D0F0013AAF9 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F1B21D26D0F0013AAF9 /* CommandSlider.m */; };
+		04993F3321D2716B0013AAF9 /* AdapterDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F2021D2716B0013AAF9 /* AdapterDemoVC.m */; };
+		04993F3421D2716B0013AAF9 /* JZYINewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F2521D2716B0013AAF9 /* JZYINewCardModel.m */; };
+		04993F3521D2716B0013AAF9 /* JZYINewCardModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F2621D2716B0013AAF9 /* JZYINewCardModelAdapter.m */; };
+		04993F3621D2716B0013AAF9 /* JZYICardModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F2921D2716B0013AAF9 /* JZYICardModelAdapter.m */; };
+		04993F3721D2716B0013AAF9 /* JZYICardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F2A21D2716B0013AAF9 /* JZYICardModel.m */; };
+		04993F3821D2716B0013AAF9 /* JZYIBusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F2D21D2716B0013AAF9 /* JZYIBusinessCardAdapter.m */; };
+		04993F3921D2716B0013AAF9 /* JZYIBusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F2E21D2716B0013AAF9 /* JZYIBusinessCardView.m */; };
+		04993F7B21D272810013AAF9 /* JZYITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F3D21D272810013AAF9 /* JZYITableView.m */; };
+		04993F7C21D272810013AAF9 /* JZYICollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F4021D272810013AAF9 /* JZYICollectionReusableView.m */; };
+		04993F7D21D272810013AAF9 /* JZYIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F4421D272810013AAF9 /* JZYIImageView.m */; };
+		04993F7E21D272810013AAF9 /* UIImageView+JZYICornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F4521D272810013AAF9 /* UIImageView+JZYICornerRadius.m */; };
+		04993F7F21D272810013AAF9 /* JZYILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F4821D272810013AAF9 /* JZYILabel.m */; };
+		04993F8021D272810013AAF9 /* JZYITableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F4B21D272810013AAF9 /* JZYITableViewHeaderFooterView.m */; };
+		04993F8121D272810013AAF9 /* JZYICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F4E21D272810013AAF9 /* JZYICollectionViewCell.m */; };
+		04993F8221D272810013AAF9 /* JZYIToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F5021D272810013AAF9 /* JZYIToolbar.m */; };
+		04993F8321D272810013AAF9 /* JZYITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F5321D272810013AAF9 /* JZYITextField.m */; };
+		04993F8421D272810013AAF9 /* JZYIInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F5621D272810013AAF9 /* JZYIInputValidator.m */; };
+		04993F8521D272810013AAF9 /* JZYIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F5821D272810013AAF9 /* JZYIWebView.m */; };
+		04993F8621D272810013AAF9 /* JZYITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F5C21D272810013AAF9 /* JZYITextView.m */; };
+		04993F8721D272810013AAF9 /* JZYIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F5E21D272810013AAF9 /* JZYIDatePicker.m */; };
+		04993F8821D272810013AAF9 /* JZYITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F6121D272810013AAF9 /* JZYITableViewCell.m */; };
+		04993F8921D272810013AAF9 /* JZYIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F6521D272810013AAF9 /* JZYIPickerView.m */; };
+		04993F8A21D272810013AAF9 /* UIView+JZYIFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F6821D272810013AAF9 /* UIView+JZYIFrame.m */; };
+		04993F8B21D272810013AAF9 /* JZYIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F6B21D272810013AAF9 /* JZYIView.m */; };
+		04993F8C21D272810013AAF9 /* JZYIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F6E21D272810013AAF9 /* JZYIScrollView.m */; };
+		04993F8D21D272810013AAF9 /* JZYIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F7121D272810013AAF9 /* JZYIButton.m */; };
+		04993F8E21D272810013AAF9 /* JZYIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F7321D272810013AAF9 /* JZYIProgressView.m */; };
+		04993F8F21D272810013AAF9 /* JZYICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F7621D272810013AAF9 /* JZYICollectionView.m */; };
+		04993F9021D272810013AAF9 /* JZYISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F7A21D272810013AAF9 /* JZYISwitch.m */; };
+		04993F9B21D272E00013AAF9 /* UIFont+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F9421D272E00013AAF9 /* UIFont+JZYITool.m */; };
+		04993F9C21D272E00013AAF9 /* UIImage+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F9621D272E00013AAF9 /* UIImage+JZYITool.m */; };
+		04993F9D21D272E00013AAF9 /* UIColor+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F9A21D272E00013AAF9 /* UIColor+JZYITool.m */; };
+		04993FA121D2731E0013AAF9 /* UIButton+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F9F21D2731E0013AAF9 /* UIButton+JZYITool.m */; };
 		04BD8D2721C9379F00D703FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D2621C9379F00D703FD /* AppDelegate.m */; };
 		04BD8D2A21C9379F00D703FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D2921C9379F00D703FD /* ViewController.m */; };
 		04BD8D2D21C9379F00D703FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD8D2B21C9379F00D703FD /* Main.storyboard */; };
@@ -176,6 +212,82 @@
 		04993F0921D126B90013AAF9 /* AbstractPartTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractPartTwo.h; sourceTree = "<group>"; };
 		04993F0A21D126B90013AAF9 /* Wheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheels.h; sourceTree = "<group>"; };
 		04993F0C21D126B90013AAF9 /* JZYIBuilderDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBuilderDemoVC.h; sourceTree = "<group>"; };
+		04993F1421D268900013AAF9 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		04993F1521D268900013AAF9 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		04993F1721D269070013AAF9 /* SetStrokeColorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetStrokeColorCommand.h; sourceTree = "<group>"; };
+		04993F1821D269070013AAF9 /* SetStrokeColorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetStrokeColorCommand.m; sourceTree = "<group>"; };
+		04993F1A21D26D0F0013AAF9 /* CommandSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
+		04993F1B21D26D0F0013AAF9 /* CommandSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
+		04993F1E21D2716B0013AAF9 /* AdapterDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterDemoVC.h; sourceTree = "<group>"; };
+		04993F2021D2716B0013AAF9 /* AdapterDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterDemoVC.m; sourceTree = "<group>"; };
+		04993F2121D2716B0013AAF9 /* JZYIBusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBusinessCardAdapter.h; sourceTree = "<group>"; };
+		04993F2321D2716B0013AAF9 /* JZYINewCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYINewCardModel.h; sourceTree = "<group>"; };
+		04993F2421D2716B0013AAF9 /* JZYINewCardModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYINewCardModelAdapter.h; sourceTree = "<group>"; };
+		04993F2521D2716B0013AAF9 /* JZYINewCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYINewCardModel.m; sourceTree = "<group>"; };
+		04993F2621D2716B0013AAF9 /* JZYINewCardModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYINewCardModelAdapter.m; sourceTree = "<group>"; };
+		04993F2821D2716B0013AAF9 /* JZYICardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICardModel.h; sourceTree = "<group>"; };
+		04993F2921D2716B0013AAF9 /* JZYICardModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICardModelAdapter.m; sourceTree = "<group>"; };
+		04993F2A21D2716B0013AAF9 /* JZYICardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICardModel.m; sourceTree = "<group>"; };
+		04993F2B21D2716B0013AAF9 /* JZYICardModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICardModelAdapter.h; sourceTree = "<group>"; };
+		04993F2D21D2716B0013AAF9 /* JZYIBusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIBusinessCardAdapter.m; sourceTree = "<group>"; };
+		04993F2E21D2716B0013AAF9 /* JZYIBusinessCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIBusinessCardView.m; sourceTree = "<group>"; };
+		04993F2F21D2716B0013AAF9 /* JZYIBusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
+		04993F3021D2716B0013AAF9 /* JZYIBusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBusinessCardAdapter.h; sourceTree = "<group>"; };
+		04993F3121D2716B0013AAF9 /* JZYIBusinessCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBusinessCardView.h; sourceTree = "<group>"; };
+		04993F3C21D272810013AAF9 /* JZYITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITableView.h; sourceTree = "<group>"; };
+		04993F3D21D272810013AAF9 /* JZYITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITableView.m; sourceTree = "<group>"; };
+		04993F3F21D272810013AAF9 /* JZYICollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICollectionReusableView.h; sourceTree = "<group>"; };
+		04993F4021D272810013AAF9 /* JZYICollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionReusableView.m; sourceTree = "<group>"; };
+		04993F4221D272810013AAF9 /* JZYIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIImageView.h; sourceTree = "<group>"; };
+		04993F4321D272810013AAF9 /* UIImageView+JZYICornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JZYICornerRadius.h"; sourceTree = "<group>"; };
+		04993F4421D272810013AAF9 /* JZYIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIImageView.m; sourceTree = "<group>"; };
+		04993F4521D272810013AAF9 /* UIImageView+JZYICornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JZYICornerRadius.m"; sourceTree = "<group>"; };
+		04993F4721D272810013AAF9 /* JZYILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYILabel.h; sourceTree = "<group>"; };
+		04993F4821D272810013AAF9 /* JZYILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYILabel.m; sourceTree = "<group>"; };
+		04993F4A21D272810013AAF9 /* JZYITableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		04993F4B21D272810013AAF9 /* JZYITableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		04993F4D21D272810013AAF9 /* JZYICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICollectionViewCell.h; sourceTree = "<group>"; };
+		04993F4E21D272810013AAF9 /* JZYICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionViewCell.m; sourceTree = "<group>"; };
+		04993F5021D272810013AAF9 /* JZYIToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIToolbar.m; sourceTree = "<group>"; };
+		04993F5121D272810013AAF9 /* JZYIToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIToolbar.h; sourceTree = "<group>"; };
+		04993F5321D272810013AAF9 /* JZYITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITextField.m; sourceTree = "<group>"; };
+		04993F5421D272810013AAF9 /* JZYIInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIInputValidator.h; sourceTree = "<group>"; };
+		04993F5521D272810013AAF9 /* JZYITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITextField.h; sourceTree = "<group>"; };
+		04993F5621D272810013AAF9 /* JZYIInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIInputValidator.m; sourceTree = "<group>"; };
+		04993F5821D272810013AAF9 /* JZYIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIWebView.m; sourceTree = "<group>"; };
+		04993F5921D272810013AAF9 /* JZYIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIWebView.h; sourceTree = "<group>"; };
+		04993F5B21D272810013AAF9 /* JZYITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITextView.h; sourceTree = "<group>"; };
+		04993F5C21D272810013AAF9 /* JZYITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITextView.m; sourceTree = "<group>"; };
+		04993F5E21D272810013AAF9 /* JZYIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIDatePicker.m; sourceTree = "<group>"; };
+		04993F5F21D272810013AAF9 /* JZYIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIDatePicker.h; sourceTree = "<group>"; };
+		04993F6121D272810013AAF9 /* JZYITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewCell.m; sourceTree = "<group>"; };
+		04993F6221D272810013AAF9 /* JZYITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITableViewCell.h; sourceTree = "<group>"; };
+		04993F6421D272810013AAF9 /* JZYIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIPickerView.h; sourceTree = "<group>"; };
+		04993F6521D272810013AAF9 /* JZYIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIPickerView.m; sourceTree = "<group>"; };
+		04993F6621D272810013AAF9 /* JZYIBasicUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBasicUI.h; sourceTree = "<group>"; };
+		04993F6821D272810013AAF9 /* UIView+JZYIFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JZYIFrame.m"; sourceTree = "<group>"; };
+		04993F6921D272810013AAF9 /* JZYIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIView.h; sourceTree = "<group>"; };
+		04993F6A21D272810013AAF9 /* UIView+JZYIFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JZYIFrame.h"; sourceTree = "<group>"; };
+		04993F6B21D272810013AAF9 /* JZYIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIView.m; sourceTree = "<group>"; };
+		04993F6D21D272810013AAF9 /* JZYIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIScrollView.h; sourceTree = "<group>"; };
+		04993F6E21D272810013AAF9 /* JZYIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIScrollView.m; sourceTree = "<group>"; };
+		04993F7021D272810013AAF9 /* JZYIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIButton.h; sourceTree = "<group>"; };
+		04993F7121D272810013AAF9 /* JZYIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIButton.m; sourceTree = "<group>"; };
+		04993F7321D272810013AAF9 /* JZYIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIProgressView.m; sourceTree = "<group>"; };
+		04993F7421D272810013AAF9 /* JZYIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIProgressView.h; sourceTree = "<group>"; };
+		04993F7621D272810013AAF9 /* JZYICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionView.m; sourceTree = "<group>"; };
+		04993F7721D272810013AAF9 /* JZYICollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICollectionView.h; sourceTree = "<group>"; };
+		04993F7921D272810013AAF9 /* JZYISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYISwitch.h; sourceTree = "<group>"; };
+		04993F7A21D272810013AAF9 /* JZYISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYISwitch.m; sourceTree = "<group>"; };
+		04993F9321D272E00013AAF9 /* UIFont+JZYITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JZYITool.h"; sourceTree = "<group>"; };
+		04993F9421D272E00013AAF9 /* UIFont+JZYITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JZYITool.m"; sourceTree = "<group>"; };
+		04993F9621D272E00013AAF9 /* UIImage+JZYITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JZYITool.m"; sourceTree = "<group>"; };
+		04993F9721D272E00013AAF9 /* UIImage+JZYITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JZYITool.h"; sourceTree = "<group>"; };
+		04993F9921D272E00013AAF9 /* UIColor+JZYITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JZYITool.h"; sourceTree = "<group>"; };
+		04993F9A21D272E00013AAF9 /* UIColor+JZYITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JZYITool.m"; sourceTree = "<group>"; };
+		04993F9F21D2731E0013AAF9 /* UIButton+JZYITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JZYITool.m"; sourceTree = "<group>"; };
+		04993FA021D2731E0013AAF9 /* UIButton+JZYITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JZYITool.h"; sourceTree = "<group>"; };
+		04993FA221D273270013AAF9 /* JZYICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICategory.h; sourceTree = "<group>"; };
 		04BD8D2221C9379F00D703FD /* TplOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TplOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD8D2521C9379F00D703FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04BD8D2621C9379F00D703FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -441,6 +553,319 @@
 			path = AbstractParts;
 			sourceTree = "<group>";
 		};
+		04993F1321D268450013AAF9 /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04993F1D21D2716B0013AAF9 /* 适配器 */,
+				04993F1421D268900013AAF9 /* Command.h */,
+				04993F1521D268900013AAF9 /* Command.m */,
+				04993F1721D269070013AAF9 /* SetStrokeColorCommand.h */,
+				04993F1821D269070013AAF9 /* SetStrokeColorCommand.m */,
+				04993F1A21D26D0F0013AAF9 /* CommandSlider.h */,
+				04993F1B21D26D0F0013AAF9 /* CommandSlider.m */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		04993F1D21D2716B0013AAF9 /* 适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				04993F1E21D2716B0013AAF9 /* AdapterDemoVC.h */,
+				04993F2021D2716B0013AAF9 /* AdapterDemoVC.m */,
+				04993F2121D2716B0013AAF9 /* JZYIBusinessCardAdapter.h */,
+				04993F2221D2716B0013AAF9 /* NewCardModel */,
+				04993F2721D2716B0013AAF9 /* CardModel */,
+				04993F2C21D2716B0013AAF9 /* BusinessCardView */,
+			);
+			path = "适配器";
+			sourceTree = "<group>";
+		};
+		04993F2221D2716B0013AAF9 /* NewCardModel */ = {
+			isa = PBXGroup;
+			children = (
+				04993F2321D2716B0013AAF9 /* JZYINewCardModel.h */,
+				04993F2521D2716B0013AAF9 /* JZYINewCardModel.m */,
+				04993F2421D2716B0013AAF9 /* JZYINewCardModelAdapter.h */,
+				04993F2621D2716B0013AAF9 /* JZYINewCardModelAdapter.m */,
+			);
+			path = NewCardModel;
+			sourceTree = "<group>";
+		};
+		04993F2721D2716B0013AAF9 /* CardModel */ = {
+			isa = PBXGroup;
+			children = (
+				04993F2821D2716B0013AAF9 /* JZYICardModel.h */,
+				04993F2A21D2716B0013AAF9 /* JZYICardModel.m */,
+				04993F2B21D2716B0013AAF9 /* JZYICardModelAdapter.h */,
+				04993F2921D2716B0013AAF9 /* JZYICardModelAdapter.m */,
+			);
+			path = CardModel;
+			sourceTree = "<group>";
+		};
+		04993F2C21D2716B0013AAF9 /* BusinessCardView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F2F21D2716B0013AAF9 /* JZYIBusinessCardAdapterProtocol.h */,
+				04993F3021D2716B0013AAF9 /* JZYIBusinessCardAdapter.h */,
+				04993F2D21D2716B0013AAF9 /* JZYIBusinessCardAdapter.m */,
+				04993F3121D2716B0013AAF9 /* JZYIBusinessCardView.h */,
+				04993F2E21D2716B0013AAF9 /* JZYIBusinessCardView.m */,
+			);
+			path = BusinessCardView;
+			sourceTree = "<group>";
+		};
+		04993F3A21D272810013AAF9 /* BasicUI */ = {
+			isa = PBXGroup;
+			children = (
+				04993F3B21D272810013AAF9 /* JZYITableView */,
+				04993F3E21D272810013AAF9 /* JZYICollectionReusableView */,
+				04993F4121D272810013AAF9 /* JZYIImageView */,
+				04993F4621D272810013AAF9 /* JZYILabel */,
+				04993F4921D272810013AAF9 /* JZYITableViewHeaderFooterView */,
+				04993F4C21D272810013AAF9 /* JZYICollectionViewCell */,
+				04993F4F21D272810013AAF9 /* JZYIToolbar */,
+				04993F5221D272810013AAF9 /* JZYITextField */,
+				04993F5721D272810013AAF9 /* JZYIWebView */,
+				04993F5A21D272810013AAF9 /* JZYITextView */,
+				04993F5D21D272810013AAF9 /* JZYIDatePicker */,
+				04993F6021D272810013AAF9 /* JZYITableViewCell */,
+				04993F6321D272810013AAF9 /* JZYIPickerView */,
+				04993F6621D272810013AAF9 /* JZYIBasicUI.h */,
+				04993F6721D272810013AAF9 /* JZYIView */,
+				04993F6C21D272810013AAF9 /* JZYIScrollView */,
+				04993F6F21D272810013AAF9 /* JZYIButton */,
+				04993F7221D272810013AAF9 /* JZYIProgressView */,
+				04993F7521D272810013AAF9 /* JZYICollectionView */,
+				04993F7821D272810013AAF9 /* JZYISwitch */,
+			);
+			path = BasicUI;
+			sourceTree = "<group>";
+		};
+		04993F3B21D272810013AAF9 /* JZYITableView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F3C21D272810013AAF9 /* JZYITableView.h */,
+				04993F3D21D272810013AAF9 /* JZYITableView.m */,
+			);
+			path = JZYITableView;
+			sourceTree = "<group>";
+		};
+		04993F3E21D272810013AAF9 /* JZYICollectionReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F3F21D272810013AAF9 /* JZYICollectionReusableView.h */,
+				04993F4021D272810013AAF9 /* JZYICollectionReusableView.m */,
+			);
+			path = JZYICollectionReusableView;
+			sourceTree = "<group>";
+		};
+		04993F4121D272810013AAF9 /* JZYIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F4221D272810013AAF9 /* JZYIImageView.h */,
+				04993F4321D272810013AAF9 /* UIImageView+JZYICornerRadius.h */,
+				04993F4421D272810013AAF9 /* JZYIImageView.m */,
+				04993F4521D272810013AAF9 /* UIImageView+JZYICornerRadius.m */,
+			);
+			path = JZYIImageView;
+			sourceTree = "<group>";
+		};
+		04993F4621D272810013AAF9 /* JZYILabel */ = {
+			isa = PBXGroup;
+			children = (
+				04993F4721D272810013AAF9 /* JZYILabel.h */,
+				04993F4821D272810013AAF9 /* JZYILabel.m */,
+			);
+			path = JZYILabel;
+			sourceTree = "<group>";
+		};
+		04993F4921D272810013AAF9 /* JZYITableViewHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F4A21D272810013AAF9 /* JZYITableViewHeaderFooterView.h */,
+				04993F4B21D272810013AAF9 /* JZYITableViewHeaderFooterView.m */,
+			);
+			path = JZYITableViewHeaderFooterView;
+			sourceTree = "<group>";
+		};
+		04993F4C21D272810013AAF9 /* JZYICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04993F4D21D272810013AAF9 /* JZYICollectionViewCell.h */,
+				04993F4E21D272810013AAF9 /* JZYICollectionViewCell.m */,
+			);
+			path = JZYICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		04993F4F21D272810013AAF9 /* JZYIToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				04993F5021D272810013AAF9 /* JZYIToolbar.m */,
+				04993F5121D272810013AAF9 /* JZYIToolbar.h */,
+			);
+			path = JZYIToolbar;
+			sourceTree = "<group>";
+		};
+		04993F5221D272810013AAF9 /* JZYITextField */ = {
+			isa = PBXGroup;
+			children = (
+				04993F5321D272810013AAF9 /* JZYITextField.m */,
+				04993F5421D272810013AAF9 /* JZYIInputValidator.h */,
+				04993F5521D272810013AAF9 /* JZYITextField.h */,
+				04993F5621D272810013AAF9 /* JZYIInputValidator.m */,
+			);
+			path = JZYITextField;
+			sourceTree = "<group>";
+		};
+		04993F5721D272810013AAF9 /* JZYIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F5821D272810013AAF9 /* JZYIWebView.m */,
+				04993F5921D272810013AAF9 /* JZYIWebView.h */,
+			);
+			path = JZYIWebView;
+			sourceTree = "<group>";
+		};
+		04993F5A21D272810013AAF9 /* JZYITextView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F5B21D272810013AAF9 /* JZYITextView.h */,
+				04993F5C21D272810013AAF9 /* JZYITextView.m */,
+			);
+			path = JZYITextView;
+			sourceTree = "<group>";
+		};
+		04993F5D21D272810013AAF9 /* JZYIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				04993F5E21D272810013AAF9 /* JZYIDatePicker.m */,
+				04993F5F21D272810013AAF9 /* JZYIDatePicker.h */,
+			);
+			path = JZYIDatePicker;
+			sourceTree = "<group>";
+		};
+		04993F6021D272810013AAF9 /* JZYITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04993F6121D272810013AAF9 /* JZYITableViewCell.m */,
+				04993F6221D272810013AAF9 /* JZYITableViewCell.h */,
+			);
+			path = JZYITableViewCell;
+			sourceTree = "<group>";
+		};
+		04993F6321D272810013AAF9 /* JZYIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F6421D272810013AAF9 /* JZYIPickerView.h */,
+				04993F6521D272810013AAF9 /* JZYIPickerView.m */,
+			);
+			path = JZYIPickerView;
+			sourceTree = "<group>";
+		};
+		04993F6721D272810013AAF9 /* JZYIView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F6821D272810013AAF9 /* UIView+JZYIFrame.m */,
+				04993F6921D272810013AAF9 /* JZYIView.h */,
+				04993F6A21D272810013AAF9 /* UIView+JZYIFrame.h */,
+				04993F6B21D272810013AAF9 /* JZYIView.m */,
+			);
+			path = JZYIView;
+			sourceTree = "<group>";
+		};
+		04993F6C21D272810013AAF9 /* JZYIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F6D21D272810013AAF9 /* JZYIScrollView.h */,
+				04993F6E21D272810013AAF9 /* JZYIScrollView.m */,
+			);
+			path = JZYIScrollView;
+			sourceTree = "<group>";
+		};
+		04993F6F21D272810013AAF9 /* JZYIButton */ = {
+			isa = PBXGroup;
+			children = (
+				04993F7021D272810013AAF9 /* JZYIButton.h */,
+				04993F7121D272810013AAF9 /* JZYIButton.m */,
+			);
+			path = JZYIButton;
+			sourceTree = "<group>";
+		};
+		04993F7221D272810013AAF9 /* JZYIProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F7321D272810013AAF9 /* JZYIProgressView.m */,
+				04993F7421D272810013AAF9 /* JZYIProgressView.h */,
+			);
+			path = JZYIProgressView;
+			sourceTree = "<group>";
+		};
+		04993F7521D272810013AAF9 /* JZYICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				04993F7621D272810013AAF9 /* JZYICollectionView.m */,
+				04993F7721D272810013AAF9 /* JZYICollectionView.h */,
+			);
+			path = JZYICollectionView;
+			sourceTree = "<group>";
+		};
+		04993F7821D272810013AAF9 /* JZYISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				04993F7921D272810013AAF9 /* JZYISwitch.h */,
+				04993F7A21D272810013AAF9 /* JZYISwitch.m */,
+			);
+			path = JZYISwitch;
+			sourceTree = "<group>";
+		};
+		04993F9121D272DA0013AAF9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04993FA221D273270013AAF9 /* JZYICategory.h */,
+				04993F9E21D2731E0013AAF9 /* UIButton+JZYITool */,
+				04993F9821D272E00013AAF9 /* UIColor+JZYITool */,
+				04993F9221D272E00013AAF9 /* UIFont+JZYITool */,
+				04993F9521D272E00013AAF9 /* UIImage+JZYITool */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04993F9221D272E00013AAF9 /* UIFont+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				04993F9321D272E00013AAF9 /* UIFont+JZYITool.h */,
+				04993F9421D272E00013AAF9 /* UIFont+JZYITool.m */,
+			);
+			path = "UIFont+JZYITool";
+			sourceTree = "<group>";
+		};
+		04993F9521D272E00013AAF9 /* UIImage+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				04993F9621D272E00013AAF9 /* UIImage+JZYITool.m */,
+				04993F9721D272E00013AAF9 /* UIImage+JZYITool.h */,
+			);
+			path = "UIImage+JZYITool";
+			sourceTree = "<group>";
+		};
+		04993F9821D272E00013AAF9 /* UIColor+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				04993F9921D272E00013AAF9 /* UIColor+JZYITool.h */,
+				04993F9A21D272E00013AAF9 /* UIColor+JZYITool.m */,
+			);
+			path = "UIColor+JZYITool";
+			sourceTree = "<group>";
+		};
+		04993F9E21D2731E0013AAF9 /* UIButton+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				04993F9F21D2731E0013AAF9 /* UIButton+JZYITool.m */,
+				04993FA021D2731E0013AAF9 /* UIButton+JZYITool.h */,
+			);
+			path = "UIButton+JZYITool";
+			sourceTree = "<group>";
+		};
 		04BD8D1921C9379F00D703FD = {
 			isa = PBXGroup;
 			children = (
@@ -521,7 +946,7 @@
 				04BD8D7F21CF957100D703FD /* 设计模式应用 */,
 				04BD8D6721C9481900D703FD /* Mine */,
 				04BD8D6321C9470200D703FD /* Login */,
-				04BD8D6221C9469500D703FD /* Base */,
+				04BD8D6221C9469500D703FD /* Tool */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -568,13 +993,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		04BD8D6221C9469500D703FD /* Base */ = {
+		04BD8D6221C9469500D703FD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				04993F9121D272DA0013AAF9 /* Category */,
+				04993F3A21D272810013AAF9 /* BasicUI */,
 				04BD8D6B21C9489100D703FD /* LYCViewController.h */,
 				04BD8D6C21C9489100D703FD /* LYCViewController.m */,
 			);
-			path = Base;
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		04BD8D6321C9470200D703FD /* Login */ = {
@@ -648,6 +1075,7 @@
 		04BD8D7F21CF957100D703FD /* 设计模式应用 */ = {
 			isa = PBXGroup;
 			children = (
+				04993F1321D268450013AAF9 /* 适配器模式 */,
 				04993EFA21D126B90013AAF9 /* 生成器模式 */,
 				04993EE521D125EA0013AAF9 /* 原型模式 */,
 				04993EBB21D125CB0013AAF9 /* 抽象工厂模式 */,
@@ -700,8 +1128,8 @@
 		04BD8D9021CF957100D703FD /* CoordinatingController */ = {
 			isa = PBXGroup;
 			children = (
-				04BD8D9121CF957100D703FD /* CoordinatingController.m */,
 				04BD8D9221CF957100D703FD /* CoordinatingController.h */,
+				04BD8D9121CF957100D703FD /* CoordinatingController.m */,
 			);
 			path = CoordinatingController;
 			sourceTree = "<group>";
@@ -991,64 +1419,100 @@
 				04BD8DAE21CF957100D703FD /* ClothCanvasViewGenerator.m in Sources */,
 				04993F0E21D126BA0013AAF9 /* Builder.m in Sources */,
 				04BD8DA621CF957100D703FD /* Stroke.m in Sources */,
+				04993F8221D272810013AAF9 /* JZYIToolbar.m in Sources */,
+				04993F7E21D272810013AAF9 /* UIImageView+JZYICornerRadius.m in Sources */,
 				04993EE321D125CB0013AAF9 /* BaseFactory.m in Sources */,
+				04993F7D21D272810013AAF9 /* JZYIImageView.m in Sources */,
 				04BD8D7621C948E800D703FD /* LYCMineCell.m in Sources */,
+				04993F3921D2716B0013AAF9 /* JZYIBusinessCardView.m in Sources */,
 				04993ED821D125CB0013AAF9 /* JZYIFactoryDemoVC.m in Sources */,
 				04993E9921CFCDB00013AAF9 /* LYCBuiderTestVC.m in Sources */,
 				04BD8DD421CFC53300D703FD /* LYCAbstractFactoryTestVC.m in Sources */,
+				04993F9021D272810013AAF9 /* JZYISwitch.m in Sources */,
+				04993F3521D2716B0013AAF9 /* JZYINewCardModelAdapter.m in Sources */,
+				04993F9B21D272E00013AAF9 /* UIFont+JZYITool.m in Sources */,
 				04993EA221CFD0CE0013AAF9 /* StandardCharacterBuilder.m in Sources */,
 				04BD8DA821CF957100D703FD /* ThumbnailViewController.m in Sources */,
+				04993F8121D272810013AAF9 /* JZYICollectionViewCell.m in Sources */,
+				04993F3321D2716B0013AAF9 /* AdapterDemoVC.m in Sources */,
 				04993EF921D125EA0013AAF9 /* JZYIPrototypeDemoVC.m in Sources */,
+				04993F8C21D272810013AAF9 /* JZYIScrollView.m in Sources */,
+				04993F8A21D272810013AAF9 /* UIView+JZYIFrame.m in Sources */,
 				04993F1021D126BA0013AAF9 /* JZYIBuilderDemoVC.m in Sources */,
+				04993F1C21D26D0F0013AAF9 /* CommandSlider.m in Sources */,
+				04993F3421D2716B0013AAF9 /* JZYINewCardModel.m in Sources */,
 				04BD8DC521CFC3A700D703FD /* AcmeToolbar.m in Sources */,
+				04993F8021D272810013AAF9 /* JZYITableViewHeaderFooterView.m in Sources */,
+				04993F8821D272810013AAF9 /* JZYITableViewCell.m in Sources */,
 				04BD8D7021C948C800D703FD /* LYCMineVC.m in Sources */,
 				04BD8D2A21C9379F00D703FD /* ViewController.m in Sources */,
 				04993EDB21D125CB0013AAF9 /* BaseWatch.m in Sources */,
 				04BD8D6D21C9489100D703FD /* LYCViewController.m in Sources */,
 				04993ED521D125CB0013AAF9 /* iPhoneDevice.m in Sources */,
 				04993EF621D125EA0013AAF9 /* JZYIClassModel.m in Sources */,
+				04993F8F21D272810013AAF9 /* JZYICollectionView.m in Sources */,
 				04993EDC21D125CB0013AAF9 /* GoogleFactory.m in Sources */,
 				04BD8DAA21CF957100D703FD /* ClothCanvasView.m in Sources */,
 				04993EE021D125CB0013AAF9 /* AndroidWatch.m in Sources */,
 				04BD8DD121CFC3F100D703FD /* SierraMainButton.m in Sources */,
 				04BD8DAD21CF957100D703FD /* CanvasViewController.m in Sources */,
 				04993EF421D125EA0013AAF9 /* JZYIStudentModel.m in Sources */,
+				04993F8721D272810013AAF9 /* JZYIDatePicker.m in Sources */,
+				04993F8321D272810013AAF9 /* JZYITextField.m in Sources */,
+				04993F8621D272810013AAF9 /* JZYITextView.m in Sources */,
 				04BD8D3521C937A100D703FD /* main.m in Sources */,
 				04993EA921D124810013AAF9 /* LYCStoreValue.m in Sources */,
 				04993EDF21D125CB0013AAF9 /* Android.m in Sources */,
+				04993F7C21D272810013AAF9 /* JZYICollectionReusableView.m in Sources */,
 				04BD8DB721CFC1B000D703FD /* AcmeBrandingFactory.m in Sources */,
 				04BD8DC821CFC3B700D703FD /* SierraToolbar.m in Sources */,
 				04993ED721D125CB0013AAF9 /* DeviceFactory.m in Sources */,
 				04993EDA21D125CB0013AAF9 /* JZYIAbstractFactoryDemoVC.m in Sources */,
+				04993F7F21D272810013AAF9 /* JZYILabel.m in Sources */,
 				04993F0F21D126BA0013AAF9 /* Door.m in Sources */,
+				04993F1621D268900013AAF9 /* Command.m in Sources */,
 				04BD8DCE21CFC3DF00D703FD /* SierraView.m in Sources */,
 				04BD8DA421CF957100D703FD /* Dot.m in Sources */,
+				04993F9D21D272E00013AAF9 /* UIColor+JZYITool.m in Sources */,
 				04993E9C21CFCDD10013AAF9 /* Character.m in Sources */,
 				04BD8DAB21CF957100D703FD /* CanvasViewGenerator.m in Sources */,
+				04993F7B21D272810013AAF9 /* JZYITableView.m in Sources */,
 				04993EF821D125EA0013AAF9 /* StudentModel.m in Sources */,
 				04993EAC21D125630013AAF9 /* NSObject+LYCStoreValue.m in Sources */,
 				04993EE421D125CB0013AAF9 /* iWatch.m in Sources */,
+				04993F3721D2716B0013AAF9 /* JZYICardModel.m in Sources */,
 				04993EDE21D125CB0013AAF9 /* FactoryManager.m in Sources */,
 				04BD8DBF21CFC36A00D703FD /* AcmeView.m in Sources */,
 				04BD8DBA21CFC1C100D703FD /* SierraBrandingFactory.m in Sources */,
 				04993ED321D125CB0013AAF9 /* BaseDevice.m in Sources */,
 				04993ED921D125CB0013AAF9 /* iPhone.m in Sources */,
+				04993FA121D2731E0013AAF9 /* UIButton+JZYITool.m in Sources */,
 				04BD8DA521CF957100D703FD /* Vertex.m in Sources */,
+				04993F1921D269070013AAF9 /* SetStrokeColorCommand.m in Sources */,
 				04BD8D2721C9379F00D703FD /* AppDelegate.m in Sources */,
 				04993EA521CFD2190013AAF9 /* ChasingGame.m in Sources */,
+				04993F8421D272810013AAF9 /* JZYIInputValidator.m in Sources */,
+				04993F3821D2716B0013AAF9 /* JZYIBusinessCardAdapter.m in Sources */,
 				04993ED421D125CB0013AAF9 /* AndroidDevice.m in Sources */,
+				04993F3621D2716B0013AAF9 /* JZYICardModelAdapter.m in Sources */,
+				04993F8921D272810013AAF9 /* JZYIPickerView.m in Sources */,
+				04993F8D21D272810013AAF9 /* JZYIButton.m in Sources */,
+				04993F8B21D272810013AAF9 /* JZYIView.m in Sources */,
+				04993F9C21D272E00013AAF9 /* UIImage+JZYITool.m in Sources */,
 				04BD8DB421CFC09F00D703FD /* BrandingFactory.m in Sources */,
 				04BD8DB021CF957100D703FD /* PaperCanvasView.m in Sources */,
 				04BD8DAF21CF957100D703FD /* PaperCanvasViewGenerator.m in Sources */,
 				04BD8D7321C948D700D703FD /* LYCMineModel.m in Sources */,
 				04993EE221D125CB0013AAF9 /* BasePhone.m in Sources */,
 				04993F1121D126BA0013AAF9 /* Engine.m in Sources */,
+				04993F8E21D272810013AAF9 /* JZYIProgressView.m in Sources */,
 				04993EE121D125CB0013AAF9 /* AppleFactory.m in Sources */,
 				04993EF521D125EA0013AAF9 /* BaseCopyObject.m in Sources */,
 				04BD8DAC21CF957100D703FD /* CanvasView.m in Sources */,
 				04BD8DC221CFC38900D703FD /* AcmeMainButton.m in Sources */,
 				04993E9F21CFCF020013AAF9 /* CharacterBuilder.m in Sources */,
 				04BD8DA921CF957100D703FD /* CoordinatingController.m in Sources */,
+				04993F8521D272810013AAF9 /* JZYIWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

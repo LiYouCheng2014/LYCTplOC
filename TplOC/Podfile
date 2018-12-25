@@ -8,6 +8,7 @@ target 'TplOC' do
   # AFNetworking 网络请求
   pod 'AFNetworking', '~> 3.2.1'
   #pod 'SDWebImage', '~> 5.0.0-beta3'
+  # 布局
   pod 'Masonry', '~> 1.1.0'
   #pod 'YYKit', '~> 1.0.9'
   #pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
@@ -26,6 +27,7 @@ target 'TplOC' do
   #pod 'CocoaLumberjack', '~> 3.4.2'
   #pod 'SocketRocket', '~> 0.5.1'
   #pod 'JazzHands', '~> 2.0.8'
+  
   
   # 数据编码
   pod 'FastCoding', '~> 3.3'

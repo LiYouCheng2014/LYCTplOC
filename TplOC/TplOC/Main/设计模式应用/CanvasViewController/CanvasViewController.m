@@ -33,4 +33,8 @@
     [[self view] addSubview:canvasView_];
 }
 
+- (void)setStrokerColor:(UIColor *)strokerColor {
+    
+}
+
 @end

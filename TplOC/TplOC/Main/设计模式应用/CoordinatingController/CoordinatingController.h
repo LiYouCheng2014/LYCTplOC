@@ -10,7 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class CanvasViewController;
+
 @interface CoordinatingController : NSObject
+
++ (instancetype)shareInstance;
+
+- (CanvasViewController *)canvasViewController;
 
 @end
 

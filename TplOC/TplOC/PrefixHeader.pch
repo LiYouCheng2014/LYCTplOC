@@ -21,4 +21,7 @@
 
 #import <Masonry/Masonry.h>
 
+#import "JZYIBasicUI.h"
+#import "JZYICategory.h"
+
 #endif /* PrefixHeader_pch */
