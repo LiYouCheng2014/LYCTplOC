@@ -10,6 +10,8 @@
 
 #import "LYCMineVC.h"
 
+#import "LYCKVC.h"
+
 @interface ViewController ()
 
 @end
@@ -20,7 +22,7 @@
     [super viewDidLoad];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        LYCMineVC *vc = [[LYCMineVC alloc] init];
+        LYCKVC *vc = [[LYCKVC alloc] init];
         [self presentViewController:vc animated:true completion:nil];
     });
 }

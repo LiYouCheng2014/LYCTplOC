@@ -77,6 +77,66 @@
 		04993F9C21D272E00013AAF9 /* UIImage+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F9621D272E00013AAF9 /* UIImage+JZYITool.m */; };
 		04993F9D21D272E00013AAF9 /* UIColor+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F9A21D272E00013AAF9 /* UIColor+JZYITool.m */; };
 		04993FA121D2731E0013AAF9 /* UIButton+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993F9F21D2731E0013AAF9 /* UIButton+JZYITool.m */; };
+		04993FB421D508370013AAF9 /* AbstractImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FA621D508370013AAF9 /* AbstractImplementor.m */; };
+		04993FB521D508370013AAF9 /* AbstractSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FA721D508370013AAF9 /* AbstractSystem.m */; };
+		04993FB621D508370013AAF9 /* GBASystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FAC21D508370013AAF9 /* GBASystem.m */; };
+		04993FB821D508370013AAF9 /* PSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FAF21D508370013AAF9 /* PSPImplementor.m */; };
+		04993FB921D508370013AAF9 /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FB021D508370013AAF9 /* GBAImplementor.m */; };
+		04993FBA21D508370013AAF9 /* JZYIBridgingDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FB221D508370013AAF9 /* JZYIBridgingDemoVC.m */; };
+		04993FBB21D508370013AAF9 /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FB321D508370013AAF9 /* PSPSystem.m */; };
+		0499403221D508820013AAF9 /* JZYIDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FBD21D508820013AAF9 /* JZYIDelegateDemoVC.m */; };
+		0499403321D508820013AAF9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FBE21D508820013AAF9 /* Model.m */; };
+		0499403421D508820013AAF9 /* ConcreteProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FC021D508820013AAF9 /* ConcreteProxy.m */; };
+		0499403521D508820013AAF9 /* AbstractExcute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FC221D508820013AAF9 /* AbstractExcute.m */; };
+		0499403621D508820013AAF9 /* AbstractProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FC421D508820013AAF9 /* AbstractProxy.m */; };
+		0499403721D508820013AAF9 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FC721D508820013AAF9 /* Customer.m */; };
+		0499403921D508820013AAF9 /* JZYIDecorateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FCE21D508820013AAF9 /* JZYIDecorateDemoVC.m */; };
+		0499403A21D508820013AAF9 /* GamePad+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FCF21D508820013AAF9 /* GamePad+Coin.m */; };
+		0499403B21D508820013AAF9 /* GamePad+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FD021D508820013AAF9 /* GamePad+Cheat.m */; };
+		0499403C21D508820013AAF9 /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FD121D508820013AAF9 /* GamePad.m */; };
+		0499403D21D508820013AAF9 /* CoinGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FD421D508820013AAF9 /* CoinGamePadDecorator.m */; };
+		0499403F21D508820013AAF9 /* CheatGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FDA21D508820013AAF9 /* CheatGamePadDecorator.m */; };
+		0499404021D508820013AAF9 /* GamePadDecorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FDB21D508820013AAF9 /* GamePadDecorate.m */; };
+		0499404221D508820013AAF9 /* FadeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FE221D508820013AAF9 /* FadeAnimationView.m */; };
+		0499404321D508820013AAF9 /* ScaleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FE321D508820013AAF9 /* ScaleAnimationView.m */; };
+		0499404421D508820013AAF9 /* BaseAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FE421D508820013AAF9 /* BaseAnimationView.m */; };
+		0499404521D508820013AAF9 /* DesignPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FE521D508820013AAF9 /* DesignPatternVC.m */; };
+		0499404621D508820013AAF9 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FE621D508820013AAF9 /* AnimationView.m */; };
+		0499404721D508820013AAF9 /* DarkCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FEA21D508820013AAF9 /* DarkCommand.m */; };
+		0499404821D508820013AAF9 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FEB21D508820013AAF9 /* Receiver.m */; };
+		0499404921D508820013AAF9 /* LightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FED21D508820013AAF9 /* LightCommand.m */; };
+		0499404B21D508820013AAF9 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FF321D508820013AAF9 /* Invoker.m */; };
+		0499404C21D508820013AAF9 /* JZYICommandDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FF421D508820013AAF9 /* JZYICommandDemoVC.m */; };
+		0499404D21D508820013AAF9 /* JZYIAppearanceDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FF721D508820013AAF9 /* JZYIAppearanceDemoVC.m */; };
+		0499404E21D508820013AAF9 /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FF921D508820013AAF9 /* ShapeMaker.m */; };
+		0499404F21D508820013AAF9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FFA21D508820013AAF9 /* Rectangle.m */; };
+		0499405021D508820013AAF9 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04993FFE21D508820013AAF9 /* Circle.m */; };
+		0499405221D508820013AAF9 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499400121D508820013AAF9 /* Shape.m */; };
+		0499405321D508820013AAF9 /* LYCStrategyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499400321D508820013AAF9 /* LYCStrategyVC.m */; };
+		0499405421D508820013AAF9 /* LYCNumericInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499400521D508820013AAF9 /* LYCNumericInputValidator.m */; };
+		0499405521D508820013AAF9 /* LYCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499400621D508820013AAF9 /* LYCTextField.m */; };
+		0499405621D508820013AAF9 /* LYCInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499400921D508820013AAF9 /* LYCInputValidator.m */; };
+		0499405721D508820013AAF9 /* LYCAlphaInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499400C21D508820013AAF9 /* LYCAlphaInputValidator.m */; };
+		0499405821D508820013AAF9 /* LYCStrategyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0499400D21D508820013AAF9 /* LYCStrategyVC.xib */; };
+		0499405921D508820013AAF9 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499400F21D508820013AAF9 /* DemoView.m */; };
+		0499405A21D508820013AAF9 /* JZYIMemoDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499401121D508820013AAF9 /* JZYIMemoDemoVC.m */; };
+		0499405B21D508820013AAF9 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499401221D508820013AAF9 /* Apple.m */; };
+		0499405C21D508820013AAF9 /* NSObject+MemoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499401421D508820013AAF9 /* NSObject+MemoCenter.m */; };
+		0499405D21D508820013AAF9 /* MemoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499401621D508820013AAF9 /* MemoCenter.m */; };
+		0499405F21D508820013AAF9 /* JZYINameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499401D21D508820013AAF9 /* JZYINameModel.m */; };
+		0499406021D508820013AAF9 /* LYCObserverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0499401E21D508820013AAF9 /* LYCObserverVC.xib */; };
+		0499406121D508820013AAF9 /* LYCSubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499401F21D508820013AAF9 /* LYCSubscriptionServiceCenter.m */; };
+		0499406221D508820013AAF9 /* LYCObserverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499402121D508820013AAF9 /* LYCObserverVC.m */; };
+		0499406321D508820013AAF9 /* Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0499402521D508820013AAF9 /* Folder@2x.png */; };
+		0499406421D508820013AAF9 /* JZYICombinationDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499402621D508820013AAF9 /* JZYICombinationDemoVC.m */; };
+		0499406521D508820013AAF9 /* FileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499402721D508820013AAF9 /* FileCell.m */; };
+		0499406621D508820013AAF9 /* File@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0499402B21D508820013AAF9 /* File@2x.png */; };
+		0499406721D508820013AAF9 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499402E21D508820013AAF9 /* File.m */; };
+		0499406921D508820013AAF9 /* JZYIFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499403021D508820013AAF9 /* JZYIFileVC.m */; };
+		0499406A21D508820013AAF9 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499403121D508820013AAF9 /* Node.m */; };
+		0499407121D51A930013AAF9 /* LYCKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499407021D51A930013AAF9 /* LYCKVC.m */; };
+		0499407421D51AF80013AAF9 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499407321D51AF80013AAF9 /* Address.m */; };
+		0499407721D51B010013AAF9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499407621D51B010013AAF9 /* Person.m */; };
 		04BD8D2721C9379F00D703FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D2621C9379F00D703FD /* AppDelegate.m */; };
 		04BD8D2A21C9379F00D703FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D2921C9379F00D703FD /* ViewController.m */; };
 		04BD8D2D21C9379F00D703FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD8D2B21C9379F00D703FD /* Main.storyboard */; };
@@ -288,6 +348,127 @@
 		04993F9F21D2731E0013AAF9 /* UIButton+JZYITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JZYITool.m"; sourceTree = "<group>"; };
 		04993FA021D2731E0013AAF9 /* UIButton+JZYITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JZYITool.h"; sourceTree = "<group>"; };
 		04993FA221D273270013AAF9 /* JZYICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICategory.h; sourceTree = "<group>"; };
+		04993FA521D508370013AAF9 /* AbstractSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractSystem.h; sourceTree = "<group>"; };
+		04993FA621D508370013AAF9 /* AbstractImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractImplementor.m; sourceTree = "<group>"; };
+		04993FA721D508370013AAF9 /* AbstractSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractSystem.m; sourceTree = "<group>"; };
+		04993FA821D508370013AAF9 /* AbstractImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractImplementor.h; sourceTree = "<group>"; };
+		04993FA921D508370013AAF9 /* GBAImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAImplementor.h; sourceTree = "<group>"; };
+		04993FAA21D508370013AAF9 /* PSPImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPImplementor.h; sourceTree = "<group>"; };
+		04993FAB21D508370013AAF9 /* JZYIBridgingDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBridgingDemoVC.h; sourceTree = "<group>"; };
+		04993FAC21D508370013AAF9 /* GBASystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBASystem.m; sourceTree = "<group>"; };
+		04993FAD21D508370013AAF9 /* PSPSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
+		04993FAF21D508370013AAF9 /* PSPImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPImplementor.m; sourceTree = "<group>"; };
+		04993FB021D508370013AAF9 /* GBAImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAImplementor.m; sourceTree = "<group>"; };
+		04993FB121D508370013AAF9 /* GBASystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBASystem.h; sourceTree = "<group>"; };
+		04993FB221D508370013AAF9 /* JZYIBridgingDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIBridgingDemoVC.m; sourceTree = "<group>"; };
+		04993FB321D508370013AAF9 /* PSPSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
+		04993FBD21D508820013AAF9 /* JZYIDelegateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIDelegateDemoVC.m; sourceTree = "<group>"; };
+		04993FBE21D508820013AAF9 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		04993FC021D508820013AAF9 /* ConcreteProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteProxy.m; sourceTree = "<group>"; };
+		04993FC121D508820013AAF9 /* AbstractProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProxy.h; sourceTree = "<group>"; };
+		04993FC221D508820013AAF9 /* AbstractExcute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractExcute.m; sourceTree = "<group>"; };
+		04993FC321D508820013AAF9 /* ConcreteProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteProxy.h; sourceTree = "<group>"; };
+		04993FC421D508820013AAF9 /* AbstractProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractProxy.m; sourceTree = "<group>"; };
+		04993FC521D508820013AAF9 /* AbstractExcute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractExcute.h; sourceTree = "<group>"; };
+		04993FC621D508820013AAF9 /* MessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageProtocol.h; sourceTree = "<group>"; };
+		04993FC721D508820013AAF9 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		04993FC821D508820013AAF9 /* TCPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPProtocol.h; sourceTree = "<group>"; };
+		04993FCA21D508820013AAF9 /* JZYIDelegateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIDelegateDemoVC.h; sourceTree = "<group>"; };
+		04993FCB21D508820013AAF9 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		04993FCC21D508820013AAF9 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		04993FCE21D508820013AAF9 /* JZYIDecorateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIDecorateDemoVC.m; sourceTree = "<group>"; };
+		04993FCF21D508820013AAF9 /* GamePad+Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Coin.m"; sourceTree = "<group>"; };
+		04993FD021D508820013AAF9 /* GamePad+Cheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Cheat.m"; sourceTree = "<group>"; };
+		04993FD121D508820013AAF9 /* GamePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
+		04993FD221D508820013AAF9 /* GamePadDecorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePadDecorate.h; sourceTree = "<group>"; };
+		04993FD321D508820013AAF9 /* CheatGamePadDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatGamePadDecorator.h; sourceTree = "<group>"; };
+		04993FD421D508820013AAF9 /* CoinGamePadDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinGamePadDecorator.m; sourceTree = "<group>"; };
+		04993FD621D508820013AAF9 /* JZYIDecorateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIDecorateDemoVC.h; sourceTree = "<group>"; };
+		04993FD721D508820013AAF9 /* GamePad+Cheat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePad+Cheat.h"; sourceTree = "<group>"; };
+		04993FD821D508820013AAF9 /* GamePad+Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePad+Coin.h"; sourceTree = "<group>"; };
+		04993FD921D508820013AAF9 /* CoinGamePadDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinGamePadDecorator.h; sourceTree = "<group>"; };
+		04993FDA21D508820013AAF9 /* CheatGamePadDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheatGamePadDecorator.m; sourceTree = "<group>"; };
+		04993FDB21D508820013AAF9 /* GamePadDecorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePadDecorate.m; sourceTree = "<group>"; };
+		04993FDC21D508820013AAF9 /* GamePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
+		04993FDE21D508820013AAF9 /* BaseAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationView.h; sourceTree = "<group>"; };
+		04993FDF21D508820013AAF9 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		04993FE121D508820013AAF9 /* DesignPatternVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternVC.h; sourceTree = "<group>"; };
+		04993FE221D508820013AAF9 /* FadeAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAnimationView.m; sourceTree = "<group>"; };
+		04993FE321D508820013AAF9 /* ScaleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleAnimationView.m; sourceTree = "<group>"; };
+		04993FE421D508820013AAF9 /* BaseAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationView.m; sourceTree = "<group>"; };
+		04993FE521D508820013AAF9 /* DesignPatternVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternVC.m; sourceTree = "<group>"; };
+		04993FE621D508820013AAF9 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		04993FE721D508820013AAF9 /* ScaleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleAnimationView.h; sourceTree = "<group>"; };
+		04993FE821D508820013AAF9 /* FadeAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeAnimationView.h; sourceTree = "<group>"; };
+		04993FEA21D508820013AAF9 /* DarkCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkCommand.m; sourceTree = "<group>"; };
+		04993FEB21D508820013AAF9 /* Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		04993FEC21D508820013AAF9 /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		04993FED21D508820013AAF9 /* LightCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightCommand.m; sourceTree = "<group>"; };
+		04993FEE21D508820013AAF9 /* JZYICommandDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICommandDemoVC.h; sourceTree = "<group>"; };
+		04993FEF21D508820013AAF9 /* CommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		04993FF021D508820013AAF9 /* DarkCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkCommand.h; sourceTree = "<group>"; };
+		04993FF221D508820013AAF9 /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		04993FF321D508820013AAF9 /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		04993FF421D508820013AAF9 /* JZYICommandDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICommandDemoVC.m; sourceTree = "<group>"; };
+		04993FF521D508820013AAF9 /* LightCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightCommand.h; sourceTree = "<group>"; };
+		04993FF721D508820013AAF9 /* JZYIAppearanceDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIAppearanceDemoVC.m; sourceTree = "<group>"; };
+		04993FF821D508820013AAF9 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		04993FF921D508820013AAF9 /* ShapeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeMaker.m; sourceTree = "<group>"; };
+		04993FFA21D508820013AAF9 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		04993FFB21D508820013AAF9 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		04993FFC21D508820013AAF9 /* JZYIAppearanceDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIAppearanceDemoVC.h; sourceTree = "<group>"; };
+		04993FFD21D508820013AAF9 /* ShapeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeMaker.h; sourceTree = "<group>"; };
+		04993FFE21D508820013AAF9 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		0499400021D508820013AAF9 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		0499400121D508820013AAF9 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		0499400321D508820013AAF9 /* LYCStrategyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCStrategyVC.m; sourceTree = "<group>"; };
+		0499400421D508820013AAF9 /* LYCInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCInputValidator.h; sourceTree = "<group>"; };
+		0499400521D508820013AAF9 /* LYCNumericInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCNumericInputValidator.m; sourceTree = "<group>"; };
+		0499400621D508820013AAF9 /* LYCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCTextField.m; sourceTree = "<group>"; };
+		0499400721D508820013AAF9 /* LYCAlphaInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCAlphaInputValidator.h; sourceTree = "<group>"; };
+		0499400821D508820013AAF9 /* LYCNumericInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCNumericInputValidator.h; sourceTree = "<group>"; };
+		0499400921D508820013AAF9 /* LYCInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCInputValidator.m; sourceTree = "<group>"; };
+		0499400A21D508820013AAF9 /* LYCStrategyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCStrategyVC.h; sourceTree = "<group>"; };
+		0499400B21D508820013AAF9 /* LYCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCTextField.h; sourceTree = "<group>"; };
+		0499400C21D508820013AAF9 /* LYCAlphaInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCAlphaInputValidator.m; sourceTree = "<group>"; };
+		0499400D21D508820013AAF9 /* LYCStrategyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCStrategyVC.xib; sourceTree = "<group>"; };
+		0499400F21D508820013AAF9 /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		0499401021D508820013AAF9 /* MemoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoCenter.h; sourceTree = "<group>"; };
+		0499401121D508820013AAF9 /* JZYIMemoDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIMemoDemoVC.m; sourceTree = "<group>"; };
+		0499401221D508820013AAF9 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		0499401321D508820013AAF9 /* MemoCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoCenterProtocol.h; sourceTree = "<group>"; };
+		0499401421D508820013AAF9 /* NSObject+MemoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoCenter.m"; sourceTree = "<group>"; };
+		0499401521D508820013AAF9 /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		0499401621D508820013AAF9 /* MemoCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoCenter.m; sourceTree = "<group>"; };
+		0499401721D508820013AAF9 /* JZYIMemoDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIMemoDemoVC.h; sourceTree = "<group>"; };
+		0499401921D508820013AAF9 /* NSObject+MemoCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoCenter.h"; sourceTree = "<group>"; };
+		0499401A21D508820013AAF9 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		0499401C21D508820013AAF9 /* LYCSubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCSubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
+		0499401D21D508820013AAF9 /* JZYINameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYINameModel.m; sourceTree = "<group>"; };
+		0499401E21D508820013AAF9 /* LYCObserverVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCObserverVC.xib; sourceTree = "<group>"; };
+		0499401F21D508820013AAF9 /* LYCSubscriptionServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCSubscriptionServiceCenter.m; sourceTree = "<group>"; };
+		0499402021D508820013AAF9 /* LYCObserverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCObserverVC.h; sourceTree = "<group>"; };
+		0499402121D508820013AAF9 /* LYCObserverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCObserverVC.m; sourceTree = "<group>"; };
+		0499402221D508820013AAF9 /* LYCSubscriptionServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCSubscriptionServiceCenter.h; sourceTree = "<group>"; };
+		0499402321D508820013AAF9 /* JZYINameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYINameModel.h; sourceTree = "<group>"; };
+		0499402521D508820013AAF9 /* Folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folder@2x.png"; sourceTree = "<group>"; };
+		0499402621D508820013AAF9 /* JZYICombinationDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICombinationDemoVC.m; sourceTree = "<group>"; };
+		0499402721D508820013AAF9 /* FileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCell.m; sourceTree = "<group>"; };
+		0499402821D508820013AAF9 /* JZYIFileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIFileVC.h; sourceTree = "<group>"; };
+		0499402921D508820013AAF9 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		0499402A21D508820013AAF9 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		0499402B21D508820013AAF9 /* File@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File@2x.png"; sourceTree = "<group>"; };
+		0499402C21D508820013AAF9 /* FileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCell.h; sourceTree = "<group>"; };
+		0499402D21D508820013AAF9 /* JZYICombinationDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICombinationDemoVC.h; sourceTree = "<group>"; };
+		0499402E21D508820013AAF9 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		0499403021D508820013AAF9 /* JZYIFileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIFileVC.m; sourceTree = "<group>"; };
+		0499403121D508820013AAF9 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		0499406F21D51A930013AAF9 /* LYCKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCKVC.h; sourceTree = "<group>"; };
+		0499407021D51A930013AAF9 /* LYCKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCKVC.m; sourceTree = "<group>"; };
+		0499407221D51AF80013AAF9 /* Address.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		0499407321D51AF80013AAF9 /* Address.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		0499407521D51B010013AAF9 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0499407621D51B010013AAF9 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		04BD8D2221C9379F00D703FD /* TplOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TplOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD8D2521C9379F00D703FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04BD8D2621C9379F00D703FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -866,6 +1047,244 @@
 			path = "UIButton+JZYITool";
 			sourceTree = "<group>";
 		};
+		04993FA321D508370013AAF9 /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04993FA421D508370013AAF9 /* Abstract */,
+				04993FA921D508370013AAF9 /* GBAImplementor.h */,
+				04993FB021D508370013AAF9 /* GBAImplementor.m */,
+				04993FAA21D508370013AAF9 /* PSPImplementor.h */,
+				04993FAF21D508370013AAF9 /* PSPImplementor.m */,
+				04993FAB21D508370013AAF9 /* JZYIBridgingDemoVC.h */,
+				04993FB221D508370013AAF9 /* JZYIBridgingDemoVC.m */,
+				04993FB121D508370013AAF9 /* GBASystem.h */,
+				04993FAC21D508370013AAF9 /* GBASystem.m */,
+				04993FAD21D508370013AAF9 /* PSPSystem.h */,
+				04993FB321D508370013AAF9 /* PSPSystem.m */,
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		04993FA421D508370013AAF9 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				04993FA521D508370013AAF9 /* AbstractSystem.h */,
+				04993FA721D508370013AAF9 /* AbstractSystem.m */,
+				04993FA621D508370013AAF9 /* AbstractImplementor.m */,
+				04993FA821D508370013AAF9 /* AbstractImplementor.h */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		04993FBC21D508820013AAF9 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04993FCA21D508820013AAF9 /* JZYIDelegateDemoVC.h */,
+				04993FBD21D508820013AAF9 /* JZYIDelegateDemoVC.m */,
+				04993FCC21D508820013AAF9 /* Model.h */,
+				04993FBE21D508820013AAF9 /* Model.m */,
+				04993FBF21D508820013AAF9 /* Proxy */,
+				04993FCB21D508820013AAF9 /* Customer.h */,
+				04993FC721D508820013AAF9 /* Customer.m */,
+				04993FC821D508820013AAF9 /* TCPProtocol.h */,
+			);
+			path = "代理模式";
+			sourceTree = "<group>";
+		};
+		04993FBF21D508820013AAF9 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				04993FC321D508820013AAF9 /* ConcreteProxy.h */,
+				04993FC021D508820013AAF9 /* ConcreteProxy.m */,
+				04993FC121D508820013AAF9 /* AbstractProxy.h */,
+				04993FC421D508820013AAF9 /* AbstractProxy.m */,
+				04993FC521D508820013AAF9 /* AbstractExcute.h */,
+				04993FC221D508820013AAF9 /* AbstractExcute.m */,
+				04993FC621D508820013AAF9 /* MessageProtocol.h */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		04993FCD21D508820013AAF9 /* 装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04993FD621D508820013AAF9 /* JZYIDecorateDemoVC.h */,
+				04993FCE21D508820013AAF9 /* JZYIDecorateDemoVC.m */,
+				04993FD821D508820013AAF9 /* GamePad+Coin.h */,
+				04993FCF21D508820013AAF9 /* GamePad+Coin.m */,
+				04993FD721D508820013AAF9 /* GamePad+Cheat.h */,
+				04993FD021D508820013AAF9 /* GamePad+Cheat.m */,
+				04993FDC21D508820013AAF9 /* GamePad.h */,
+				04993FD121D508820013AAF9 /* GamePad.m */,
+				04993FD221D508820013AAF9 /* GamePadDecorate.h */,
+				04993FDB21D508820013AAF9 /* GamePadDecorate.m */,
+				04993FD921D508820013AAF9 /* CoinGamePadDecorator.h */,
+				04993FD421D508820013AAF9 /* CoinGamePadDecorator.m */,
+				04993FD321D508820013AAF9 /* CheatGamePadDecorator.h */,
+				04993FDA21D508820013AAF9 /* CheatGamePadDecorator.m */,
+			);
+			path = "装饰模式";
+			sourceTree = "<group>";
+		};
+		04993FDD21D508820013AAF9 /* 设计模式简介 */ = {
+			isa = PBXGroup;
+			children = (
+				04993FDE21D508820013AAF9 /* BaseAnimationView.h */,
+				04993FE421D508820013AAF9 /* BaseAnimationView.m */,
+				04993FDF21D508820013AAF9 /* AnimationView.h */,
+				04993FE621D508820013AAF9 /* AnimationView.m */,
+				04993FE821D508820013AAF9 /* FadeAnimationView.h */,
+				04993FE221D508820013AAF9 /* FadeAnimationView.m */,
+				04993FE721D508820013AAF9 /* ScaleAnimationView.h */,
+				04993FE321D508820013AAF9 /* ScaleAnimationView.m */,
+				04993FE121D508820013AAF9 /* DesignPatternVC.h */,
+				04993FE521D508820013AAF9 /* DesignPatternVC.m */,
+			);
+			path = "设计模式简介";
+			sourceTree = "<group>";
+		};
+		04993FE921D508820013AAF9 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04993FF221D508820013AAF9 /* Receiver.h */,
+				04993FEB21D508820013AAF9 /* Receiver.m */,
+				04993FEC21D508820013AAF9 /* Invoker.h */,
+				04993FF321D508820013AAF9 /* Invoker.m */,
+				04993FF521D508820013AAF9 /* LightCommand.h */,
+				04993FED21D508820013AAF9 /* LightCommand.m */,
+				04993FEF21D508820013AAF9 /* CommandProtocol.h */,
+				04993FF021D508820013AAF9 /* DarkCommand.h */,
+				04993FEA21D508820013AAF9 /* DarkCommand.m */,
+				04993FEE21D508820013AAF9 /* JZYICommandDemoVC.h */,
+				04993FF421D508820013AAF9 /* JZYICommandDemoVC.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		04993FF621D508820013AAF9 /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04993FFC21D508820013AAF9 /* JZYIAppearanceDemoVC.h */,
+				04993FF721D508820013AAF9 /* JZYIAppearanceDemoVC.m */,
+				04993FFD21D508820013AAF9 /* ShapeMaker.h */,
+				04993FF921D508820013AAF9 /* ShapeMaker.m */,
+				0499400021D508820013AAF9 /* Rectangle.h */,
+				04993FFA21D508820013AAF9 /* Rectangle.m */,
+				04993FFB21D508820013AAF9 /* Shape.h */,
+				0499400121D508820013AAF9 /* Shape.m */,
+				04993FF821D508820013AAF9 /* Circle.h */,
+				04993FFE21D508820013AAF9 /* Circle.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		0499400221D508820013AAF9 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				0499400A21D508820013AAF9 /* LYCStrategyVC.h */,
+				0499400321D508820013AAF9 /* LYCStrategyVC.m */,
+				0499400D21D508820013AAF9 /* LYCStrategyVC.xib */,
+				0499400421D508820013AAF9 /* LYCInputValidator.h */,
+				0499400921D508820013AAF9 /* LYCInputValidator.m */,
+				0499400821D508820013AAF9 /* LYCNumericInputValidator.h */,
+				0499400521D508820013AAF9 /* LYCNumericInputValidator.m */,
+				0499400B21D508820013AAF9 /* LYCTextField.h */,
+				0499400621D508820013AAF9 /* LYCTextField.m */,
+				0499400721D508820013AAF9 /* LYCAlphaInputValidator.h */,
+				0499400C21D508820013AAF9 /* LYCAlphaInputValidator.m */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		0499400E21D508820013AAF9 /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				0499401521D508820013AAF9 /* DemoView.h */,
+				0499400F21D508820013AAF9 /* DemoView.m */,
+				0499401021D508820013AAF9 /* MemoCenter.h */,
+				0499401621D508820013AAF9 /* MemoCenter.m */,
+				0499401721D508820013AAF9 /* JZYIMemoDemoVC.h */,
+				0499401121D508820013AAF9 /* JZYIMemoDemoVC.m */,
+				0499401A21D508820013AAF9 /* Apple.h */,
+				0499401221D508820013AAF9 /* Apple.m */,
+				0499401921D508820013AAF9 /* NSObject+MemoCenter.h */,
+				0499401421D508820013AAF9 /* NSObject+MemoCenter.m */,
+				0499401321D508820013AAF9 /* MemoCenterProtocol.h */,
+			);
+			path = "备忘录模式";
+			sourceTree = "<group>";
+		};
+		0499401B21D508820013AAF9 /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				0499401C21D508820013AAF9 /* LYCSubscriptionServiceCenterProtocol.h */,
+				0499402221D508820013AAF9 /* LYCSubscriptionServiceCenter.h */,
+				0499401F21D508820013AAF9 /* LYCSubscriptionServiceCenter.m */,
+				0499402021D508820013AAF9 /* LYCObserverVC.h */,
+				0499402121D508820013AAF9 /* LYCObserverVC.m */,
+				0499401E21D508820013AAF9 /* LYCObserverVC.xib */,
+				0499402321D508820013AAF9 /* JZYINameModel.h */,
+				0499401D21D508820013AAF9 /* JZYINameModel.m */,
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		0499402421D508820013AAF9 /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				0499402521D508820013AAF9 /* Folder@2x.png */,
+				0499402D21D508820013AAF9 /* JZYICombinationDemoVC.h */,
+				0499402621D508820013AAF9 /* JZYICombinationDemoVC.m */,
+				0499402C21D508820013AAF9 /* FileCell.h */,
+				0499402721D508820013AAF9 /* FileCell.m */,
+				0499402921D508820013AAF9 /* File.h */,
+				0499402E21D508820013AAF9 /* File.m */,
+				0499402A21D508820013AAF9 /* Node.h */,
+				0499403121D508820013AAF9 /* Node.m */,
+				0499402B21D508820013AAF9 /* File@2x.png */,
+				0499402821D508820013AAF9 /* JZYIFileVC.h */,
+				0499403021D508820013AAF9 /* JZYIFileVC.m */,
+			);
+			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		0499406B21D51A5C0013AAF9 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				0499406E21D51A720013AAF9 /* Controller */,
+				0499406D21D51A6C0013AAF9 /* View */,
+				0499406C21D51A640013AAF9 /* Model */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		0499406C21D51A640013AAF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0499407221D51AF80013AAF9 /* Address.h */,
+				0499407321D51AF80013AAF9 /* Address.m */,
+				0499407521D51B010013AAF9 /* Person.h */,
+				0499407621D51B010013AAF9 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0499406D21D51A6C0013AAF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0499406E21D51A720013AAF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0499406F21D51A930013AAF9 /* LYCKVC.h */,
+				0499407021D51A930013AAF9 /* LYCKVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		04BD8D1921C9379F00D703FD = {
 			isa = PBXGroup;
 			children = (
@@ -943,6 +1362,7 @@
 		04BD8D5921C9434300D703FD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0499406B21D51A5C0013AAF9 /* KVC */,
 				04BD8D7F21CF957100D703FD /* 设计模式应用 */,
 				04BD8D6721C9481900D703FD /* Mine */,
 				04BD8D6321C9470200D703FD /* Login */,
@@ -1075,6 +1495,16 @@
 		04BD8D7F21CF957100D703FD /* 设计模式应用 */ = {
 			isa = PBXGroup;
 			children = (
+				0499400E21D508820013AAF9 /* 备忘录模式 */,
+				0499400221D508820013AAF9 /* 策略模式 */,
+				04993FBC21D508820013AAF9 /* 代理模式 */,
+				0499401B21D508820013AAF9 /* 观察者模式 */,
+				04993FE921D508820013AAF9 /* 命令模式 */,
+				04993FDD21D508820013AAF9 /* 设计模式简介 */,
+				04993FF621D508820013AAF9 /* 外观模式 */,
+				04993FCD21D508820013AAF9 /* 装饰模式 */,
+				0499402421D508820013AAF9 /* 组合模式 */,
+				04993FA321D508370013AAF9 /* 桥接模式 */,
 				04993F1321D268450013AAF9 /* 适配器模式 */,
 				04993EFA21D126B90013AAF9 /* 生成器模式 */,
 				04993EE521D125EA0013AAF9 /* 原型模式 */,
@@ -1330,8 +1760,12 @@
 				04993EDD21D125CB0013AAF9 /* 抽象工厂模式.md in Resources */,
 				04BD8DA221CF957100D703FD /* paper.png in Resources */,
 				04BD8D3221C937A100D703FD /* LaunchScreen.storyboard in Resources */,
+				0499406621D508820013AAF9 /* File@2x.png in Resources */,
 				04BD8DA721CF957100D703FD /* cloth.png in Resources */,
+				0499406021D508820013AAF9 /* LYCObserverVC.xib in Resources */,
+				0499406321D508820013AAF9 /* Folder@2x.png in Resources */,
 				04BD8D2F21C937A100D703FD /* Assets.xcassets in Resources */,
+				0499405821D508820013AAF9 /* LYCStrategyVC.xib in Resources */,
 				04BD8D2D21C9379F00D703FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1415,32 +1849,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BD8DA321CF957100D703FD /* PaletteViewController.m in Sources */,
+				0499405921D508820013AAF9 /* DemoView.m in Sources */,
+				0499403F21D508820013AAF9 /* CheatGamePadDecorator.m in Sources */,
+				0499404B21D508820013AAF9 /* Invoker.m in Sources */,
 				04993F0D21D126BA0013AAF9 /* Wheels.m in Sources */,
 				04BD8DAE21CF957100D703FD /* ClothCanvasViewGenerator.m in Sources */,
+				0499404E21D508820013AAF9 /* ShapeMaker.m in Sources */,
 				04993F0E21D126BA0013AAF9 /* Builder.m in Sources */,
 				04BD8DA621CF957100D703FD /* Stroke.m in Sources */,
+				04993FBA21D508370013AAF9 /* JZYIBridgingDemoVC.m in Sources */,
+				0499405C21D508820013AAF9 /* NSObject+MemoCenter.m in Sources */,
 				04993F8221D272810013AAF9 /* JZYIToolbar.m in Sources */,
+				0499404421D508820013AAF9 /* BaseAnimationView.m in Sources */,
 				04993F7E21D272810013AAF9 /* UIImageView+JZYICornerRadius.m in Sources */,
 				04993EE321D125CB0013AAF9 /* BaseFactory.m in Sources */,
 				04993F7D21D272810013AAF9 /* JZYIImageView.m in Sources */,
 				04BD8D7621C948E800D703FD /* LYCMineCell.m in Sources */,
+				0499404721D508820013AAF9 /* DarkCommand.m in Sources */,
+				0499404821D508820013AAF9 /* Receiver.m in Sources */,
 				04993F3921D2716B0013AAF9 /* JZYIBusinessCardView.m in Sources */,
+				0499405A21D508820013AAF9 /* JZYIMemoDemoVC.m in Sources */,
 				04993ED821D125CB0013AAF9 /* JZYIFactoryDemoVC.m in Sources */,
 				04993E9921CFCDB00013AAF9 /* LYCBuiderTestVC.m in Sources */,
 				04BD8DD421CFC53300D703FD /* LYCAbstractFactoryTestVC.m in Sources */,
 				04993F9021D272810013AAF9 /* JZYISwitch.m in Sources */,
+				04993FB621D508370013AAF9 /* GBASystem.m in Sources */,
+				0499404F21D508820013AAF9 /* Rectangle.m in Sources */,
+				0499406221D508820013AAF9 /* LYCObserverVC.m in Sources */,
 				04993F3521D2716B0013AAF9 /* JZYINewCardModelAdapter.m in Sources */,
+				04993FB421D508370013AAF9 /* AbstractImplementor.m in Sources */,
+				0499404921D508820013AAF9 /* LightCommand.m in Sources */,
 				04993F9B21D272E00013AAF9 /* UIFont+JZYITool.m in Sources */,
+				0499404321D508820013AAF9 /* ScaleAnimationView.m in Sources */,
 				04993EA221CFD0CE0013AAF9 /* StandardCharacterBuilder.m in Sources */,
 				04BD8DA821CF957100D703FD /* ThumbnailViewController.m in Sources */,
+				0499406721D508820013AAF9 /* File.m in Sources */,
 				04993F8121D272810013AAF9 /* JZYICollectionViewCell.m in Sources */,
 				04993F3321D2716B0013AAF9 /* AdapterDemoVC.m in Sources */,
+				0499404D21D508820013AAF9 /* JZYIAppearanceDemoVC.m in Sources */,
 				04993EF921D125EA0013AAF9 /* JZYIPrototypeDemoVC.m in Sources */,
 				04993F8C21D272810013AAF9 /* JZYIScrollView.m in Sources */,
 				04993F8A21D272810013AAF9 /* UIView+JZYIFrame.m in Sources */,
 				04993F1021D126BA0013AAF9 /* JZYIBuilderDemoVC.m in Sources */,
 				04993F1C21D26D0F0013AAF9 /* CommandSlider.m in Sources */,
+				0499404521D508820013AAF9 /* DesignPatternVC.m in Sources */,
 				04993F3421D2716B0013AAF9 /* JZYINewCardModel.m in Sources */,
+				0499407421D51AF80013AAF9 /* Address.m in Sources */,
+				0499405F21D508820013AAF9 /* JZYINameModel.m in Sources */,
+				04993FBB21D508370013AAF9 /* PSPSystem.m in Sources */,
+				0499407121D51A930013AAF9 /* LYCKVC.m in Sources */,
 				04BD8DC521CFC3A700D703FD /* AcmeToolbar.m in Sources */,
 				04993F8021D272810013AAF9 /* JZYITableViewHeaderFooterView.m in Sources */,
 				04993F8821D272810013AAF9 /* JZYITableViewCell.m in Sources */,
@@ -1448,20 +1905,29 @@
 				04BD8D2A21C9379F00D703FD /* ViewController.m in Sources */,
 				04993EDB21D125CB0013AAF9 /* BaseWatch.m in Sources */,
 				04BD8D6D21C9489100D703FD /* LYCViewController.m in Sources */,
+				0499403621D508820013AAF9 /* AbstractProxy.m in Sources */,
 				04993ED521D125CB0013AAF9 /* iPhoneDevice.m in Sources */,
 				04993EF621D125EA0013AAF9 /* JZYIClassModel.m in Sources */,
 				04993F8F21D272810013AAF9 /* JZYICollectionView.m in Sources */,
+				0499403421D508820013AAF9 /* ConcreteProxy.m in Sources */,
 				04993EDC21D125CB0013AAF9 /* GoogleFactory.m in Sources */,
 				04BD8DAA21CF957100D703FD /* ClothCanvasView.m in Sources */,
 				04993EE021D125CB0013AAF9 /* AndroidWatch.m in Sources */,
 				04BD8DD121CFC3F100D703FD /* SierraMainButton.m in Sources */,
 				04BD8DAD21CF957100D703FD /* CanvasViewController.m in Sources */,
 				04993EF421D125EA0013AAF9 /* JZYIStudentModel.m in Sources */,
+				0499406421D508820013AAF9 /* JZYICombinationDemoVC.m in Sources */,
 				04993F8721D272810013AAF9 /* JZYIDatePicker.m in Sources */,
 				04993F8321D272810013AAF9 /* JZYITextField.m in Sources */,
+				04993FB821D508370013AAF9 /* PSPImplementor.m in Sources */,
+				0499406521D508820013AAF9 /* FileCell.m in Sources */,
 				04993F8621D272810013AAF9 /* JZYITextView.m in Sources */,
 				04BD8D3521C937A100D703FD /* main.m in Sources */,
+				0499406921D508820013AAF9 /* JZYIFileVC.m in Sources */,
+				0499405221D508820013AAF9 /* Shape.m in Sources */,
 				04993EA921D124810013AAF9 /* LYCStoreValue.m in Sources */,
+				0499403721D508820013AAF9 /* Customer.m in Sources */,
+				0499405321D508820013AAF9 /* LYCStrategyVC.m in Sources */,
 				04993EDF21D125CB0013AAF9 /* Android.m in Sources */,
 				04993F7C21D272810013AAF9 /* JZYICollectionReusableView.m in Sources */,
 				04BD8DB721CFC1B000D703FD /* AcmeBrandingFactory.m in Sources */,
@@ -1469,36 +1935,57 @@
 				04993ED721D125CB0013AAF9 /* DeviceFactory.m in Sources */,
 				04993EDA21D125CB0013AAF9 /* JZYIAbstractFactoryDemoVC.m in Sources */,
 				04993F7F21D272810013AAF9 /* JZYILabel.m in Sources */,
+				0499403C21D508820013AAF9 /* GamePad.m in Sources */,
 				04993F0F21D126BA0013AAF9 /* Door.m in Sources */,
+				0499404C21D508820013AAF9 /* JZYICommandDemoVC.m in Sources */,
 				04993F1621D268900013AAF9 /* Command.m in Sources */,
 				04BD8DCE21CFC3DF00D703FD /* SierraView.m in Sources */,
 				04BD8DA421CF957100D703FD /* Dot.m in Sources */,
+				04993FB521D508370013AAF9 /* AbstractSystem.m in Sources */,
+				0499405D21D508820013AAF9 /* MemoCenter.m in Sources */,
 				04993F9D21D272E00013AAF9 /* UIColor+JZYITool.m in Sources */,
 				04993E9C21CFCDD10013AAF9 /* Character.m in Sources */,
 				04BD8DAB21CF957100D703FD /* CanvasViewGenerator.m in Sources */,
 				04993F7B21D272810013AAF9 /* JZYITableView.m in Sources */,
+				0499405021D508820013AAF9 /* Circle.m in Sources */,
+				0499403D21D508820013AAF9 /* CoinGamePadDecorator.m in Sources */,
 				04993EF821D125EA0013AAF9 /* StudentModel.m in Sources */,
+				0499407721D51B010013AAF9 /* Person.m in Sources */,
+				0499405B21D508820013AAF9 /* Apple.m in Sources */,
 				04993EAC21D125630013AAF9 /* NSObject+LYCStoreValue.m in Sources */,
 				04993EE421D125CB0013AAF9 /* iWatch.m in Sources */,
+				0499406A21D508820013AAF9 /* Node.m in Sources */,
 				04993F3721D2716B0013AAF9 /* JZYICardModel.m in Sources */,
 				04993EDE21D125CB0013AAF9 /* FactoryManager.m in Sources */,
+				0499403521D508820013AAF9 /* AbstractExcute.m in Sources */,
 				04BD8DBF21CFC36A00D703FD /* AcmeView.m in Sources */,
+				0499403321D508820013AAF9 /* Model.m in Sources */,
 				04BD8DBA21CFC1C100D703FD /* SierraBrandingFactory.m in Sources */,
 				04993ED321D125CB0013AAF9 /* BaseDevice.m in Sources */,
 				04993ED921D125CB0013AAF9 /* iPhone.m in Sources */,
+				0499405621D508820013AAF9 /* LYCInputValidator.m in Sources */,
+				0499404621D508820013AAF9 /* AnimationView.m in Sources */,
 				04993FA121D2731E0013AAF9 /* UIButton+JZYITool.m in Sources */,
 				04BD8DA521CF957100D703FD /* Vertex.m in Sources */,
+				0499403921D508820013AAF9 /* JZYIDecorateDemoVC.m in Sources */,
+				0499404221D508820013AAF9 /* FadeAnimationView.m in Sources */,
 				04993F1921D269070013AAF9 /* SetStrokeColorCommand.m in Sources */,
 				04BD8D2721C9379F00D703FD /* AppDelegate.m in Sources */,
+				0499403A21D508820013AAF9 /* GamePad+Coin.m in Sources */,
 				04993EA521CFD2190013AAF9 /* ChasingGame.m in Sources */,
+				04993FB921D508370013AAF9 /* GBAImplementor.m in Sources */,
+				0499405421D508820013AAF9 /* LYCNumericInputValidator.m in Sources */,
 				04993F8421D272810013AAF9 /* JZYIInputValidator.m in Sources */,
 				04993F3821D2716B0013AAF9 /* JZYIBusinessCardAdapter.m in Sources */,
 				04993ED421D125CB0013AAF9 /* AndroidDevice.m in Sources */,
+				0499405721D508820013AAF9 /* LYCAlphaInputValidator.m in Sources */,
+				0499405521D508820013AAF9 /* LYCTextField.m in Sources */,
 				04993F3621D2716B0013AAF9 /* JZYICardModelAdapter.m in Sources */,
 				04993F8921D272810013AAF9 /* JZYIPickerView.m in Sources */,
 				04993F8D21D272810013AAF9 /* JZYIButton.m in Sources */,
 				04993F8B21D272810013AAF9 /* JZYIView.m in Sources */,
 				04993F9C21D272E00013AAF9 /* UIImage+JZYITool.m in Sources */,
+				0499404021D508820013AAF9 /* GamePadDecorate.m in Sources */,
 				04BD8DB421CFC09F00D703FD /* BrandingFactory.m in Sources */,
 				04BD8DB021CF957100D703FD /* PaperCanvasView.m in Sources */,
 				04BD8DAF21CF957100D703FD /* PaperCanvasViewGenerator.m in Sources */,
@@ -1508,10 +1995,13 @@
 				04993F8E21D272810013AAF9 /* JZYIProgressView.m in Sources */,
 				04993EE121D125CB0013AAF9 /* AppleFactory.m in Sources */,
 				04993EF521D125EA0013AAF9 /* BaseCopyObject.m in Sources */,
+				0499403B21D508820013AAF9 /* GamePad+Cheat.m in Sources */,
 				04BD8DAC21CF957100D703FD /* CanvasView.m in Sources */,
 				04BD8DC221CFC38900D703FD /* AcmeMainButton.m in Sources */,
 				04993E9F21CFCF020013AAF9 /* CharacterBuilder.m in Sources */,
+				0499406121D508820013AAF9 /* LYCSubscriptionServiceCenter.m in Sources */,
 				04BD8DA921CF957100D703FD /* CoordinatingController.m in Sources */,
+				0499403221D508820013AAF9 /* JZYIDelegateDemoVC.m in Sources */,
 				04993F8521D272810013AAF9 /* JZYIWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
