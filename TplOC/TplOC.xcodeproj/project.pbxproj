@@ -137,6 +137,12 @@
 		0499407121D51A930013AAF9 /* LYCKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499407021D51A930013AAF9 /* LYCKVC.m */; };
 		0499407421D51AF80013AAF9 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499407321D51AF80013AAF9 /* Address.m */; };
 		0499407721D51B010013AAF9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499407621D51B010013AAF9 /* Person.m */; };
+		049940A821DA61030013AAF9 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940A721DA61030013AAF9 /* UIView+UIImage.m */; };
+		049940AB21DA63CC0013AAF9 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940AA21DA63CC0013AAF9 /* NSMutableArray+Stack.m */; };
+		049940B021E1E4C80013AAF9 /* ASyncURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940AF21E1E4C80013AAF9 /* ASyncURLConnection.m */; };
+		049940B421E24E6D0013AAF9 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940B321E24E6D0013AAF9 /* Vertex.m */; };
+		049940B721E252090013AAF9 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940B621E252090013AAF9 /* Dot.m */; };
+		049940BA21E253310013AAF9 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940B921E253310013AAF9 /* Stroke.m */; };
 		04BD8D2721C9379F00D703FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D2621C9379F00D703FD /* AppDelegate.m */; };
 		04BD8D2A21C9379F00D703FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D2921C9379F00D703FD /* ViewController.m */; };
 		04BD8D2D21C9379F00D703FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD8D2B21C9379F00D703FD /* Main.storyboard */; };
@@ -151,9 +157,6 @@
 		04BD8D7621C948E800D703FD /* LYCMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D7521C948E800D703FD /* LYCMineCell.m */; };
 		04BD8DA221CF957100D703FD /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BD8D8021CF957100D703FD /* paper.png */; };
 		04BD8DA321CF957100D703FD /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D8321CF957100D703FD /* PaletteViewController.m */; };
-		04BD8DA421CF957100D703FD /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D8621CF957100D703FD /* Dot.m */; };
-		04BD8DA521CF957100D703FD /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D8921CF957100D703FD /* Vertex.m */; };
-		04BD8DA621CF957100D703FD /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D8B21CF957100D703FD /* Stroke.m */; };
 		04BD8DA721CF957100D703FD /* cloth.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BD8D8C21CF957100D703FD /* cloth.png */; };
 		04BD8DA821CF957100D703FD /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D8E21CF957100D703FD /* ThumbnailViewController.m */; };
 		04BD8DA921CF957100D703FD /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD8D9121CF957100D703FD /* CoordinatingController.m */; };
@@ -469,6 +472,19 @@
 		0499407321D51AF80013AAF9 /* Address.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
 		0499407521D51B010013AAF9 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0499407621D51B010013AAF9 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		049940A621DA61030013AAF9 /* UIView+UIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		049940A721DA61030013AAF9 /* UIView+UIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+		049940A921DA63CC0013AAF9 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		049940AA21DA63CC0013AAF9 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		049940AE21E1E4C80013AAF9 /* ASyncURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASyncURLConnection.h; sourceTree = "<group>"; };
+		049940AF21E1E4C80013AAF9 /* ASyncURLConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASyncURLConnection.m; sourceTree = "<group>"; };
+		049940B121E24D630013AAF9 /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		049940B221E24E6D0013AAF9 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		049940B321E24E6D0013AAF9 /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		049940B521E252090013AAF9 /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		049940B621E252090013AAF9 /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		049940B821E253310013AAF9 /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		049940B921E253310013AAF9 /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
 		04BD8D2221C9379F00D703FD /* TplOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TplOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD8D2521C9379F00D703FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04BD8D2621C9379F00D703FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -499,13 +515,6 @@
 		04BD8D8021CF957100D703FD /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
 		04BD8D8221CF957100D703FD /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		04BD8D8321CF957100D703FD /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
-		04BD8D8521CF957100D703FD /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
-		04BD8D8621CF957100D703FD /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
-		04BD8D8721CF957100D703FD /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
-		04BD8D8821CF957100D703FD /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
-		04BD8D8921CF957100D703FD /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
-		04BD8D8A21CF957100D703FD /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
-		04BD8D8B21CF957100D703FD /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
 		04BD8D8C21CF957100D703FD /* cloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloth.png; sourceTree = "<group>"; };
 		04BD8D8E21CF957100D703FD /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
 		04BD8D8F21CF957100D703FD /* ThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
@@ -1285,6 +1294,158 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		0499409621DA60150013AAF9 /* 设计模式TouchPainter */ = {
+			isa = PBXGroup;
+			children = (
+				049940A121DA60B80013AAF9 /* View Controllers */,
+				049940A021DA60B10013AAF9 /* Views */,
+				0499409F21DA609F0013AAF9 /* Memento Observer */,
+				0499409E21DA60990013AAF9 /* Proxy */,
+				0499409D21DA608B0013AAF9 /* Composite Prototype Iterator */,
+				0499409C21DA60830013AAF9 /* Visitor */,
+				0499409B21DA607A0013AAF9 /* Iterator */,
+				0499409A21DA60630013AAF9 /* Factory Method */,
+				0499409921DA605C0013AAF9 /* Mediator */,
+				0499409821DA604F0013AAF9 /* Command */,
+				0499409721DA60430013AAF9 /* Utilities */,
+			);
+			path = "设计模式TouchPainter";
+			sourceTree = "<group>";
+		};
+		0499409721DA60430013AAF9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0499409821DA604F0013AAF9 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		0499409921DA605C0013AAF9 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		0499409A21DA60630013AAF9 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		0499409B21DA607A0013AAF9 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		0499409C21DA60830013AAF9 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		0499409D21DA608B0013AAF9 /* Composite Prototype Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				049940B121E24D630013AAF9 /* Mark.h */,
+				049940B221E24E6D0013AAF9 /* Vertex.h */,
+				049940B321E24E6D0013AAF9 /* Vertex.m */,
+				049940B521E252090013AAF9 /* Dot.h */,
+				049940B621E252090013AAF9 /* Dot.m */,
+				049940B821E253310013AAF9 /* Stroke.h */,
+				049940B921E253310013AAF9 /* Stroke.m */,
+			);
+			path = "Composite Prototype Iterator";
+			sourceTree = "<group>";
+		};
+		0499409E21DA60990013AAF9 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		0499409F21DA609F0013AAF9 /* Memento Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Memento Observer";
+			sourceTree = "<group>";
+		};
+		049940A021DA60B10013AAF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		049940A121DA60B80013AAF9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				049940A521DA60E30013AAF9 /* View2Image */,
+				049940A421DA60DD0013AAF9 /* Custom Stack */,
+				049940A321DA60D50013AAF9 /* Command Slider */,
+				049940A221DA60CE0013AAF9 /* Command Button */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		049940A221DA60CE0013AAF9 /* Command Button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Command Button";
+			sourceTree = "<group>";
+		};
+		049940A321DA60D50013AAF9 /* Command Slider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Command Slider";
+			sourceTree = "<group>";
+		};
+		049940A421DA60DD0013AAF9 /* Custom Stack */ = {
+			isa = PBXGroup;
+			children = (
+				049940A921DA63CC0013AAF9 /* NSMutableArray+Stack.h */,
+				049940AA21DA63CC0013AAF9 /* NSMutableArray+Stack.m */,
+			);
+			path = "Custom Stack";
+			sourceTree = "<group>";
+		};
+		049940A521DA60E30013AAF9 /* View2Image */ = {
+			isa = PBXGroup;
+			children = (
+				049940A621DA61030013AAF9 /* UIView+UIImage.h */,
+				049940A721DA61030013AAF9 /* UIView+UIImage.m */,
+			);
+			path = View2Image;
+			sourceTree = "<group>";
+		};
+		049940AC21E1E2B70013AAF9 /* 其它设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "其它设计模式";
+			sourceTree = "<group>";
+		};
+		049940AD21E1E2CA0013AAF9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		04BD8D1921C9379F00D703FD = {
 			isa = PBXGroup;
 			children = (
@@ -1310,6 +1471,9 @@
 		04BD8D2421C9379F00D703FD /* TplOC */ = {
 			isa = PBXGroup;
 			children = (
+				049940AD21E1E2CA0013AAF9 /* New Group */,
+				049940AC21E1E2B70013AAF9 /* 其它设计模式 */,
+				0499409621DA60150013AAF9 /* 设计模式TouchPainter */,
 				04BD8D6121C944F000D703FD /* Resources */,
 				04BD8D5E21C9436B00D703FD /* Utils */,
 				04BD8D5D21C9436400D703FD /* Macros */,
@@ -1321,6 +1485,8 @@
 				04BD8D2621C9379F00D703FD /* AppDelegate.m */,
 				04BD8D2821C9379F00D703FD /* ViewController.h */,
 				04BD8D2921C9379F00D703FD /* ViewController.m */,
+				049940AE21E1E4C80013AAF9 /* ASyncURLConnection.h */,
+				049940AF21E1E4C80013AAF9 /* ASyncURLConnection.m */,
 				04BD8D5721C937EB00D703FD /* 整体说明 */,
 				04BD8D2B21C9379F00D703FD /* Main.storyboard */,
 				04BD8D2E21C937A100D703FD /* Assets.xcassets */,
@@ -1535,13 +1701,6 @@
 		04BD8D8421CF957100D703FD /* Mark */ = {
 			isa = PBXGroup;
 			children = (
-				04BD8D8721CF957100D703FD /* Mark.h */,
-				04BD8D8521CF957100D703FD /* Vertex.h */,
-				04BD8D8921CF957100D703FD /* Vertex.m */,
-				04BD8D8A21CF957100D703FD /* Dot.h */,
-				04BD8D8621CF957100D703FD /* Dot.m */,
-				04BD8D8821CF957100D703FD /* Stroke.h */,
-				04BD8D8B21CF957100D703FD /* Stroke.m */,
 			);
 			path = Mark;
 			sourceTree = "<group>";
@@ -1856,7 +2015,6 @@
 				04BD8DAE21CF957100D703FD /* ClothCanvasViewGenerator.m in Sources */,
 				0499404E21D508820013AAF9 /* ShapeMaker.m in Sources */,
 				04993F0E21D126BA0013AAF9 /* Builder.m in Sources */,
-				04BD8DA621CF957100D703FD /* Stroke.m in Sources */,
 				04993FBA21D508370013AAF9 /* JZYIBridgingDemoVC.m in Sources */,
 				0499405C21D508820013AAF9 /* NSObject+MemoCenter.m in Sources */,
 				04993F8221D272810013AAF9 /* JZYIToolbar.m in Sources */,
@@ -1882,6 +2040,7 @@
 				04993F9B21D272E00013AAF9 /* UIFont+JZYITool.m in Sources */,
 				0499404321D508820013AAF9 /* ScaleAnimationView.m in Sources */,
 				04993EA221CFD0CE0013AAF9 /* StandardCharacterBuilder.m in Sources */,
+				049940B021E1E4C80013AAF9 /* ASyncURLConnection.m in Sources */,
 				04BD8DA821CF957100D703FD /* ThumbnailViewController.m in Sources */,
 				0499406721D508820013AAF9 /* File.m in Sources */,
 				04993F8121D272810013AAF9 /* JZYICollectionViewCell.m in Sources */,
@@ -1896,6 +2055,7 @@
 				04993F3421D2716B0013AAF9 /* JZYINewCardModel.m in Sources */,
 				0499407421D51AF80013AAF9 /* Address.m in Sources */,
 				0499405F21D508820013AAF9 /* JZYINameModel.m in Sources */,
+				049940A821DA61030013AAF9 /* UIView+UIImage.m in Sources */,
 				04993FBB21D508370013AAF9 /* PSPSystem.m in Sources */,
 				0499407121D51A930013AAF9 /* LYCKVC.m in Sources */,
 				04BD8DC521CFC3A700D703FD /* AcmeToolbar.m in Sources */,
@@ -1914,6 +2074,7 @@
 				04BD8DAA21CF957100D703FD /* ClothCanvasView.m in Sources */,
 				04993EE021D125CB0013AAF9 /* AndroidWatch.m in Sources */,
 				04BD8DD121CFC3F100D703FD /* SierraMainButton.m in Sources */,
+				049940AB21DA63CC0013AAF9 /* NSMutableArray+Stack.m in Sources */,
 				04BD8DAD21CF957100D703FD /* CanvasViewController.m in Sources */,
 				04993EF421D125EA0013AAF9 /* JZYIStudentModel.m in Sources */,
 				0499406421D508820013AAF9 /* JZYICombinationDemoVC.m in Sources */,
@@ -1921,6 +2082,7 @@
 				04993F8321D272810013AAF9 /* JZYITextField.m in Sources */,
 				04993FB821D508370013AAF9 /* PSPImplementor.m in Sources */,
 				0499406521D508820013AAF9 /* FileCell.m in Sources */,
+				049940BA21E253310013AAF9 /* Stroke.m in Sources */,
 				04993F8621D272810013AAF9 /* JZYITextView.m in Sources */,
 				04BD8D3521C937A100D703FD /* main.m in Sources */,
 				0499406921D508820013AAF9 /* JZYIFileVC.m in Sources */,
@@ -1940,7 +2102,6 @@
 				0499404C21D508820013AAF9 /* JZYICommandDemoVC.m in Sources */,
 				04993F1621D268900013AAF9 /* Command.m in Sources */,
 				04BD8DCE21CFC3DF00D703FD /* SierraView.m in Sources */,
-				04BD8DA421CF957100D703FD /* Dot.m in Sources */,
 				04993FB521D508370013AAF9 /* AbstractSystem.m in Sources */,
 				0499405D21D508820013AAF9 /* MemoCenter.m in Sources */,
 				04993F9D21D272E00013AAF9 /* UIColor+JZYITool.m in Sources */,
@@ -1966,7 +2127,6 @@
 				0499405621D508820013AAF9 /* LYCInputValidator.m in Sources */,
 				0499404621D508820013AAF9 /* AnimationView.m in Sources */,
 				04993FA121D2731E0013AAF9 /* UIButton+JZYITool.m in Sources */,
-				04BD8DA521CF957100D703FD /* Vertex.m in Sources */,
 				0499403921D508820013AAF9 /* JZYIDecorateDemoVC.m in Sources */,
 				0499404221D508820013AAF9 /* FadeAnimationView.m in Sources */,
 				04993F1921D269070013AAF9 /* SetStrokeColorCommand.m in Sources */,
@@ -1975,6 +2135,7 @@
 				04993EA521CFD2190013AAF9 /* ChasingGame.m in Sources */,
 				04993FB921D508370013AAF9 /* GBAImplementor.m in Sources */,
 				0499405421D508820013AAF9 /* LYCNumericInputValidator.m in Sources */,
+				049940B421E24E6D0013AAF9 /* Vertex.m in Sources */,
 				04993F8421D272810013AAF9 /* JZYIInputValidator.m in Sources */,
 				04993F3821D2716B0013AAF9 /* JZYIBusinessCardAdapter.m in Sources */,
 				04993ED421D125CB0013AAF9 /* AndroidDevice.m in Sources */,
@@ -1994,6 +2155,7 @@
 				04993F1121D126BA0013AAF9 /* Engine.m in Sources */,
 				04993F8E21D272810013AAF9 /* JZYIProgressView.m in Sources */,
 				04993EE121D125CB0013AAF9 /* AppleFactory.m in Sources */,
+				049940B721E252090013AAF9 /* Dot.m in Sources */,
 				04993EF521D125EA0013AAF9 /* BaseCopyObject.m in Sources */,
 				0499403B21D508820013AAF9 /* GamePad+Cheat.m in Sources */,
 				04BD8DAC21CF957100D703FD /* CanvasView.m in Sources */,
